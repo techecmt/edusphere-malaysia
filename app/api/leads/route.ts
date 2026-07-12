@@ -1,8 +1,14 @@
 import { NextResponse } from "next/server";
 
 /** Default `public.colleges` row for website enquiries. Override in env if the id differs per project. */
-const LUMAX_ACADEMY_COLLEGE_ID =
-  process.env.LUMAX_ACADEMY_COLLEGE_ID ?? "f8a6db20-b97f-48c8-8992-ddd13000b3e1";
+const EDUSPHERE_ACADEMY_MALAYSIA_COLLEGE_ID =
+  process.env.EDUSPHERE_ACADEMY_MALAYSIA_COLLEGE_ID ??
+  process.env.LUMAX_ACADEMY_COLLEGE_ID ??
+  "3ca21d90-fadf-4371-9f39-5ae0965531a1";
+
+/** Keep source as a valid enum value from the leads table. */
+const LEAD_SOURCE_LABEL =
+  process.env.EDUSPHERE_LEAD_SOURCE ?? "website";
 
 type LeadRequest = {
   fullName?: unknown;
@@ -58,8 +64,7 @@ export async function POST(request: Request) {
   }
 
   const formattedPhone = [phoneCode, phone].filter(Boolean).join(" ");
-  const notes = [
-    nationality ? `Nationality: ${nationality}` : "",
+  const description = [
     startMonth ? `Preferred start month: ${startMonth}` : "",
     message ? `Message: ${message}` : "",
   ]
@@ -75,14 +80,15 @@ export async function POST(request: Request) {
       Prefer: "return=minimal",
     },
     body: JSON.stringify({
-      college_id: LUMAX_ACADEMY_COLLEGE_ID,
+      college_id: EDUSPHERE_ACADEMY_MALAYSIA_COLLEGE_ID,
       full_name: fullName,
       phone: formattedPhone,
       email: email || null,
       interested_course: courseTitle || courseId,
-      source: "website",
+      source: LEAD_SOURCE_LABEL,
       status: "inquiry_received",
-      notes: notes || null,
+      nationality: nationality || null,
+      description: description || null,
     }),
   });
 
