@@ -93,7 +93,7 @@ export default function CoursesPage() {
 
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/80 px-4 py-2 text-xs font-semibold text-slate-700">
               <FiMapPin className="h-4 w-4 text-(--brand)" aria-hidden />
-              45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor,
+              45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor,
               Malaysia · Open Mon–Sun, 9am–6pm
             </div>
           </div>

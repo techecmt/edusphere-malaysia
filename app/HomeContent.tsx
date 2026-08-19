@@ -523,7 +523,7 @@ export default function HomeContent() {
                   Train in Skudai, Johor — Taman Universiti
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
-                  Edusphere Academy is located at 45-02, Jalan Pendidikan 1,
+                  Edusphere Academy is located at 45-02, Jalan Pendidikan 3,
                   Taman Universiti, Skudai, Johor. Classes run seven days a
                   week, and our campus is easy to reach from Skudai and Johor
                   Bahru.
@@ -539,7 +539,7 @@ export default function HomeContent() {
                         Address
                       </div>
                       <div className="mt-0.5 text-sm font-semibold text-slate-800">
-                        45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia
+                        45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia
                       </div>
                     </div>
                   </div>
@@ -564,7 +564,7 @@ export default function HomeContent() {
                   </div>
                   <ul className="mt-3 space-y-2">
                     {[
-                      "Along Jalan Pendidikan 1 in Taman Universiti, Skudai",
+                      "Along Jalan Pendidikan 3 in Taman Universiti, Skudai",
                       "Near Universiti Teknologi Malaysia (UTM Skudai)",
                       "Easy access from Johor Bahru and Skudai via Jalan Skudai",
                     ].map((line) => (
@@ -582,8 +582,8 @@ export default function HomeContent() {
 
               <div className="overflow-hidden rounded-3xl border border-(--border) shadow-[0_18px_70px_-60px_rgba(2,6,23,0.55)]">
                 <iframe
-                  title="Map showing Edusphere Academy at 45-02, Jalan Pendidikan 1, Taman Universiti, Skudai, Johor"
-                  src="https://www.google.com/maps?q=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia&output=embed"
+                  title="Map showing Edusphere Academy at 45-02, Jalan Pendidikan 3, Taman Universiti, Skudai, Johor"
+                  src="https://www.google.com/maps?q=45-02%2C%20Jalan%20Pendidikan%203%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia&output=embed"
                   width="100%"
                   height="440"
                   loading="lazy"
@@ -615,7 +615,7 @@ export default function HomeContent() {
                   {[
                     { k: "Phone", v: "+65 8221 6423" },
                     { k: "Email", v: "info@edusphereacademy.com.my" },
-                    { k: "Address", v: "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia" },
+                    { k: "Address", v: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia" },
                   ].map((x) => (
                     <div
                       key={x.k}

@@ -69,7 +69,7 @@ export default function Image() {
             fontWeight: 700,
           }}
         >
-          45-02, Jalan Pendidikan 1 · Taman Universiti, Skudai, Johor
+          45-02, Jalan Pendidikan 3 · Taman Universiti, Skudai, Johor
         </div>
       </div>
     ),

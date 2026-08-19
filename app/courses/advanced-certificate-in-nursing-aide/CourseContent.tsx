@@ -928,7 +928,7 @@ export default function NursingAideContent() {
                     { icon: FiCalendar, k: "Schedule", v: "Weekend · 12 Sundays · 3 hrs/class" },
                     { icon: FiClock, k: "Duration", v: "12 weeks · 36 contact hours" },
                     { icon: FiMonitor, k: "Mode", v: "E-learning / Face-to-Face" },
-                    { icon: FiMapPin, k: "Campus", v: "45-02, Jalan Pendidikan 1 · Taman Universiti, Skudai" },
+                    { icon: FiMapPin, k: "Campus", v: "45-02, Jalan Pendidikan 3 · Taman Universiti, Skudai" },
                   ].map((x) => (
                     <div
                       key={x.k}

@@ -90,8 +90,8 @@ export default function SiteFooter({ className }: FooterProps) {
                 {
                   icon: FiMapPin,
                   title: "Visit us",
-                  text: "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia",
-                  href: "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
+                  text: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia",
+                  href: "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%203%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
                 },
               ].map((item) => (
                 <a

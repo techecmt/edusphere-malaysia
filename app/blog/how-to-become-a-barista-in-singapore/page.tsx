@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "Where can I take a barista course in Malaysia?",
-    a: "Edusphere Academy runs its Certificate in Barista Arts at our campus at 45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor. Classes are held on weekends and the campus is open Monday to Sunday, 9am to 6pm.",
+    a: "Edusphere Academy runs its Certificate in Barista Arts at our campus at 45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor. Classes are held on weekends and the campus is open Monday to Sunday, 9am to 6pm.",
   },
 ];
 
@@ -397,7 +397,7 @@ export default function Page() {
               </h2>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 Edusphere Academy runs the Certificate in Barista Arts at our campus at
-                45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor —
+                45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor —
                 near Universiti Teknologi Malaysia (UTM). Weekend classes are built
                 for working adults and career switchers, and our campus is open
                 seven days a week.
