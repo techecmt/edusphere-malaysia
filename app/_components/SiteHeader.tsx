@@ -47,7 +47,7 @@ export default function SiteHeader() {
       { icon: FiPhone, label: "Call: +65 8221 6423", href: "tel:+6582216423" },
       {
         icon: FiMapPin,
-        label: "7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591",
+        label: "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia",
       },
       {
         icon: FiMail,

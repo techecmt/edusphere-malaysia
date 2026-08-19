@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "../data/seo";
 export const metadata: Metadata = {
   title: "Student Affairs & Learner Support",
   description:
-    "Student Affairs at Edusphere Academy Malaysia — course counselling, enrolment support, academic guidance, and learner wellbeing services for students at our Beach Road campus.",
+    "Student Affairs at Edusphere Academy Malaysia — course counselling, enrolment support, academic guidance, and learner wellbeing services for students at our Skudai, Johor campus.",
   alternates: { canonical: "/student-affairs" },
   openGraph: {
     url: "/student-affairs",
@@ -43,7 +43,7 @@ export default function StudentAffairsPage() {
           Student Affairs supports learners at Edusphere Academy Malaysia
           throughout their learning journey — from course counselling and
           enrolment guidance to academic support and learner wellbeing at our
-          Beach Road campus.
+          Taman Universiti campus in Skudai, Johor.
         </p>
 
         <section className="mt-10 grid gap-6 lg:grid-cols-3">

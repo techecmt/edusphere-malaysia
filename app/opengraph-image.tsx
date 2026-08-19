@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Edusphere Academy — Skills Training Academy in Malaysia, Beach Road";
+  "Edusphere Academy — Skills Training Academy in Skudai, Johor";
 export const size = {
   width: 1200,
   height: 630,
@@ -69,7 +69,7 @@ export default function Image() {
             fontWeight: 700,
           }}
         >
-          The Plaza, 7500A Beach Road · near Nicoll Highway &amp; Bugis MRT
+          45-02, Jalan Pendidikan 1 · Taman Universiti, Skudai, Johor
         </div>
       </div>
     ),

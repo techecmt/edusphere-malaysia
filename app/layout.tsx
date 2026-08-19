@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Edusphere Academy",
   },
   description:
-    "Edusphere Academy is a skills training academy at Beach Road, Malaysia (near Nicoll Highway & Bugis MRT) offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
+    "Edusphere Academy is a skills training academy in Taman Universiti, Skudai, Johor offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
   keywords: [
     "skills training academy Malaysia",
     "healthcare courses Malaysia",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "nursing aide course Malaysia",
     "healthcare administration course Malaysia",
     "barista course Malaysia",
-    "certificate courses Beach Road Malaysia",
+    "certificate courses Skudai Johor",
   ],
   applicationName: SITE.name,
   category: "education",
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
     url: "/",
     title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Malaysia.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Skudai, Johor.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Malaysia.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Skudai, Johor.",
   },
   robots: {
     index: true,

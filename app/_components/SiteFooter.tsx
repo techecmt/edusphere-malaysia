@@ -90,8 +90,8 @@ export default function SiteFooter({ className }: FooterProps) {
                 {
                   icon: FiMapPin,
                   title: "Visit us",
-                  text: "7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591",
-                  href: "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Malaysia%20199591",
+                  text: "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia",
+                  href: "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
                 },
               ].map((item) => (
                 <a

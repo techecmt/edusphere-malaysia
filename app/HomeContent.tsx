@@ -149,7 +149,7 @@ export default function HomeContent() {
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/70 px-4 py-2 text-xs font-semibold text-slate-700">
                   <span className="inline-block h-2 w-2 rounded-full bg-(--brand)" />
-                  Skills Training Academy · Beach Road, Malaysia
+                  Skills Training Academy · Skudai, Johor
                 </div>
 
                 <motion.h1
@@ -163,7 +163,7 @@ export default function HomeContent() {
                   hands-on, instructor-led courses.
                 </motion.h1>
                 <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
-                Practical, job-focused certificate courses in nursing aide, caregiving, healthcare administration, and barista arts — taught at our Beach Road campus at The Plaza, minutes from Nicoll Highway and Bugis MRT, with flexible e-learning options.
+                Practical, job-focused certificate courses in nursing aide, caregiving, healthcare administration, and barista arts — taught at our Taman Universiti campus in Skudai, Johor, with flexible e-learning options.
                 </p>
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -215,7 +215,7 @@ export default function HomeContent() {
                       Campus
                     </div>
                     <div className="mt-0.5 text-lg font-extrabold text-slate-900">
-                      Beach Road, SG
+                      Skudai, Johor
                     </div>
                   </div>
 
@@ -520,13 +520,13 @@ export default function HomeContent() {
                   OUR CAMPUS
                 </div>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                  Train in the heart of Malaysia — Beach Road, The Plaza
+                  Train in Skudai, Johor — Taman Universiti
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
-                  Edusphere Academy is located at The Plaza on Beach Road, in the
-                  Bugis–Kallang corridor of central Malaysia. Classes run seven
-                  days a week, and our campus is an easy walk from three MRT
-                  stations.
+                  Edusphere Academy is located at 45-02, Jalan Pendidikan 1,
+                  Taman Universiti, Skudai, Johor. Classes run seven days a
+                  week, and our campus is easy to reach from Skudai and Johor
+                  Bahru.
                 </p>
 
                 <div className="mt-6 grid gap-3">
@@ -539,7 +539,7 @@ export default function HomeContent() {
                         Address
                       </div>
                       <div className="mt-0.5 text-sm font-semibold text-slate-800">
-                        7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591
+                        45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia
                       </div>
                     </div>
                   </div>
@@ -560,13 +560,13 @@ export default function HomeContent() {
 
                 <div className="mt-6">
                   <div className="text-xs font-bold uppercase tracking-widest text-slate-400">
-                    Getting here by MRT
+                    Getting here
                   </div>
                   <ul className="mt-3 space-y-2">
                     {[
-                      "Nicoll Highway MRT (CC5) — about 5 minutes' walk via Republic Avenue",
-                      "Bugis MRT (EW12 / DT14) — about 10 minutes' walk along Beach Road",
-                      "Lavender MRT (EW11) — about 12 minutes' walk via Crawford Street",
+                      "Along Jalan Pendidikan 1 in Taman Universiti, Skudai",
+                      "Near Universiti Teknologi Malaysia (UTM Skudai)",
+                      "Easy access from Johor Bahru and Skudai via Jalan Skudai",
                     ].map((line) => (
                       <li
                         key={line}
@@ -582,8 +582,8 @@ export default function HomeContent() {
 
               <div className="overflow-hidden rounded-3xl border border-(--border) shadow-[0_18px_70px_-60px_rgba(2,6,23,0.55)]">
                 <iframe
-                  title="Map showing Edusphere Academy at The Plaza, 7500A Beach Road, Malaysia"
-                  src="https://www.google.com/maps?q=7500A%20Beach%20Rd%2C%20%2301-308%20THE%20PLAZA%2C%20Malaysia%20199591&output=embed"
+                  title="Map showing Edusphere Academy at 45-02, Jalan Pendidikan 1, Taman Universiti, Skudai, Johor"
+                  src="https://www.google.com/maps?q=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia&output=embed"
                   width="100%"
                   height="440"
                   loading="lazy"
@@ -615,7 +615,7 @@ export default function HomeContent() {
                   {[
                     { k: "Phone", v: "+65 8221 6423" },
                     { k: "Email", v: "info@edusphereacademy.com.my" },
-                    { k: "Address", v: "7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591" },
+                    { k: "Address", v: "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia" },
                   ].map((x) => (
                     <div
                       key={x.k}

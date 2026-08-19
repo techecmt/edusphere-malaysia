@@ -244,8 +244,8 @@ export default function BaristaArtsContent() {
                 A hands-on barista course in Malaysia — master espresso
                 extraction, milk texturing, latte art, and café service, ready for
                 cafés, coffee chains, hotels, and specialty coffee establishments
-                in Malaysia and beyond. Weekend classes at our Beach Road campus
-                (The Plaza), near Bugis and Nicoll Highway MRT.
+                in Malaysia and beyond. Weekend classes at our Taman Universiti
+                campus in Skudai, Johor.
               </motion.p>
 
               <motion.div
@@ -866,7 +866,7 @@ export default function BaristaArtsContent() {
                     { icon: FiCalendar, k: "Schedule", v: "Weekend · 12 Sundays · 3 hrs/class" },
                     { icon: FiClock, k: "Duration", v: "12 weeks · 36 contact hours" },
                     { icon: FiCoffee, k: "Mode", v: "E-learning / Face-to-Face" },
-                    { icon: FiMapPin, k: "Campus", v: "7500A Beach Rd, The Plaza · near Nicoll Highway MRT" },
+                    { icon: FiMapPin, k: "Campus", v: "45-02, Jalan Pendidikan 1 · Taman Universiti, Skudai" },
                   ].map((x) => (
                     <div
                       key={x.k}

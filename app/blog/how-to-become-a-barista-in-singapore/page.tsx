@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "Where can I take a barista course in Malaysia?",
-    a: "Edusphere Academy runs its Certificate in Barista Arts at our Beach Road campus (The Plaza, 7500A Beach Road), a short walk from Bugis and Nicoll Highway MRT. Classes are held on weekends and the campus is open Monday to Sunday, 9am to 6pm.",
+    a: "Edusphere Academy runs its Certificate in Barista Arts at our campus at 45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor. Classes are held on weekends and the campus is open Monday to Sunday, 9am to 6pm.",
   },
 ];
 
@@ -355,7 +355,7 @@ export default function Page() {
                   </span>
                   <span className="inline-flex items-center gap-2">
                     <FiMapPin className="h-4 w-4 text-(--brand)" aria-hidden />
-                    Beach Road campus, Malaysia
+                    Taman Universiti campus, Skudai
                   </span>
                 </div>
                 <Link
@@ -393,14 +393,14 @@ export default function Page() {
             {/* Local path */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Train as a barista at Edusphere Academy, Beach Road
+                Train as a barista at Edusphere Academy, Skudai
               </h2>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                Edusphere Academy runs the Certificate in Barista Arts at our campus in
-                The Plaza, 7500A Beach Road — a short walk from Bugis and Nicoll
-                Highway MRT, in the heart of Malaysia&rsquo;s Bugis–Kallang
-                corridor. Weekend classes are built for working adults and career
-                switchers, and our campus is open seven days a week.
+                Edusphere Academy runs the Certificate in Barista Arts at our campus at
+                45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor —
+                near Universiti Teknologi Malaysia (UTM). Weekend classes are built
+                for working adults and career switchers, and our campus is open
+                seven days a week.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 If you&rsquo;re ready to turn a love of coffee into a real skill —
@@ -439,7 +439,7 @@ export default function Page() {
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-white/75 sm:text-base">
               Learn espresso, milk texturing, latte art, and café service with
-              hands-on training at our Beach Road campus. Enquire about the next
+              hands-on training at our Taman Universiti campus in Skudai. Enquire about the next
               intake for the Certificate in Barista Arts.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">

@@ -7,17 +7,23 @@ export const SITE = {
   email: "info@edusphereacademy.com.my",
   logo: "/logo.png",
   address: {
-    street: "7500A Beach Road, #01-308 The Plaza",
-    locality: "Malaysia",
-    postalCode: "199591",
-    countryCode: "SG",
+    street: "45-02, Jalan Pendidikan 1, Taman Universiti",
+    locality: "Skudai",
+    region: "Johor",
+    postalCode: "81300",
+    country: "Malaysia",
+    countryCode: "MY",
+    formatted:
+      "45-02, Jalan Pendidikan 1, Taman Universiti, 81300 Skudai, Johor, Malaysia",
   },
   geo: {
-    latitude: 1.3005,
-    longitude: 103.863,
+    latitude: 1.534042,
+    longitude: 103.6253388,
   },
   mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Malaysia%20199591",
+    "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=45-02%2C%20Jalan%20Pendidikan%201%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia&output=embed",
   openingHours: {
     days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
     opens: "09:00",
@@ -49,14 +55,14 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "advanced-certificate-in-nursing-aide",
     metaTitle: "Nursing Aide Course in Malaysia (Advanced Certificate)",
     metaDescription:
-      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Taman Universiti, Skudai, Johor. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
     keywords: [
       "nursing aide course Malaysia",
       "healthcare assistant course Malaysia",
       "patient care assistant training Malaysia",
       "first aid CPR course Malaysia",
       "wound care course Malaysia",
-      "nursing aide certificate Beach Road",
+      "nursing aide certificate Skudai Johor",
     ],
     courseName: "Advanced Certificate in Nursing Aide",
     courseDescription:
@@ -82,7 +88,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "advanced-certificate-in-professional-caregiving",
     metaTitle: "Caregiver Course in Malaysia — Elderly, Autism & Child Care",
     metaDescription:
-      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Taman Universiti, Skudai, Johor. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
     keywords: [
       "caregiver course Malaysia",
       "caregiver training Malaysia",
@@ -115,7 +121,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "hospital-healthcare-administration",
     metaTitle: "Healthcare Administration Course in Malaysia",
     metaDescription:
-      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
+      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Taman Universiti, Skudai, Johor. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
     keywords: [
       "healthcare administration course Malaysia",
       "hospital administration course Malaysia",
@@ -146,7 +152,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "barista-arts",
     metaTitle: "Barista Course in Malaysia (Certificate in Barista Arts)",
     metaDescription:
-      "36-hour Certificate in Barista Arts at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
+      "36-hour Certificate in Barista Arts at Edusphere Academy, Taman Universiti, Skudai, Johor. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
     keywords: [
       "barista course Malaysia",
       "barista training Malaysia",
@@ -194,6 +200,7 @@ export function organizationJsonLd() {
       "@type": "PostalAddress",
       streetAddress: SITE.address.street,
       addressLocality: SITE.address.locality,
+      addressRegion: SITE.address.region,
       postalCode: SITE.address.postalCode,
       addressCountry: SITE.address.countryCode,
     },
@@ -246,11 +253,12 @@ export function courseJsonLd(seo: CourseSeo) {
       courseWorkload: "PT36H",
       location: {
         "@type": "Place",
-        name: `${SITE.name} — The Plaza, Beach Road`,
+        name: `${SITE.name} — Taman Universiti, Skudai, Johor`,
         address: {
           "@type": "PostalAddress",
           streetAddress: SITE.address.street,
           addressLocality: SITE.address.locality,
+          addressRegion: SITE.address.region,
           postalCode: SITE.address.postalCode,
           addressCountry: SITE.address.countryCode,
         },
