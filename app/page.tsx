@@ -5,18 +5,18 @@ import { SITE } from "./data/seo";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Edusphere Academy Singapore | Healthcare, Caregiving & Barista Courses",
+    absolute: "Edusphere Academy Malaysia | Healthcare, Caregiving & Barista Courses",
   },
   description:
-    "Skills training academy at The Plaza, Beach Road Singapore — near Nicoll Highway & Bugis MRT. Hands-on certificate courses in nursing aide, caregiving (elderly, autism & child care), healthcare administration and barista arts. Open 7 days.",
+    "Skills training academy at The Plaza, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Hands-on certificate courses in nursing aide, caregiving (elderly, autism & child care), healthcare administration and barista arts. Open 7 days.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     url: "/",
-    title: "Edusphere Academy Singapore | Healthcare, Caregiving & Barista Courses",
+    title: "Edusphere Academy Malaysia | Healthcare, Caregiving & Barista Courses",
     description:
-      "Hands-on certificate courses at Beach Road, Singapore — nursing aide, caregiving, healthcare administration and barista arts. Open 7 days.",
+      "Hands-on certificate courses at Beach Road, Malaysia — nursing aide, caregiving, healthcare administration and barista arts. Open 7 days.",
   },
 };
 

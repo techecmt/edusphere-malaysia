@@ -149,7 +149,7 @@ export default function HomeContent() {
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/70 px-4 py-2 text-xs font-semibold text-slate-700">
                   <span className="inline-block h-2 w-2 rounded-full bg-(--brand)" />
-                  Skills Training Academy · Beach Road, Singapore
+                  Skills Training Academy · Beach Road, Malaysia
                 </div>
 
                 <motion.h1
@@ -159,7 +159,7 @@ export default function HomeContent() {
                   className="mt-5 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-[56px] lg:leading-[1.05]"
                 >
                   Build Career-Ready Skills{" "}
-                  <span className="text-(--brand)">in Singapore</span> — with
+                  <span className="text-(--brand)">in Malaysia</span> — with
                   hands-on, instructor-led courses.
                 </motion.h1>
                 <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
@@ -220,7 +220,7 @@ export default function HomeContent() {
                   </div>
 
                   <Image
-                    alt="Student learning online with headphones at Edusphere Academy Singapore"
+                    alt="Student learning online with headphones at Edusphere Academy Malaysia"
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80"
                     width={1400}
                     height={880}
@@ -306,7 +306,7 @@ export default function HomeContent() {
                 </div>
                 <BlurText
                   as="h2"
-                  text="Certificate courses in Singapore"
+                  text="Certificate courses in Malaysia"
                   delay={110}
                   animateBy="words"
                   direction="top"
@@ -520,11 +520,11 @@ export default function HomeContent() {
                   OUR CAMPUS
                 </div>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                  Train in the heart of Singapore — Beach Road, The Plaza
+                  Train in the heart of Malaysia — Beach Road, The Plaza
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
                   Edusphere Academy is located at The Plaza on Beach Road, in the
-                  Bugis–Kallang corridor of central Singapore. Classes run seven
+                  Bugis–Kallang corridor of central Malaysia. Classes run seven
                   days a week, and our campus is an easy walk from three MRT
                   stations.
                 </p>
@@ -539,7 +539,7 @@ export default function HomeContent() {
                         Address
                       </div>
                       <div className="mt-0.5 text-sm font-semibold text-slate-800">
-                        7500A Beach Rd, #01-308 THE PLAZA, Singapore 199591
+                        7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591
                       </div>
                     </div>
                   </div>
@@ -582,8 +582,8 @@ export default function HomeContent() {
 
               <div className="overflow-hidden rounded-3xl border border-(--border) shadow-[0_18px_70px_-60px_rgba(2,6,23,0.55)]">
                 <iframe
-                  title="Map showing Edusphere Academy at The Plaza, 7500A Beach Road, Singapore"
-                  src="https://www.google.com/maps?q=7500A%20Beach%20Rd%2C%20%2301-308%20THE%20PLAZA%2C%20Singapore%20199591&output=embed"
+                  title="Map showing Edusphere Academy at The Plaza, 7500A Beach Road, Malaysia"
+                  src="https://www.google.com/maps?q=7500A%20Beach%20Rd%2C%20%2301-308%20THE%20PLAZA%2C%20Malaysia%20199591&output=embed"
                   width="100%"
                   height="440"
                   loading="lazy"
@@ -615,7 +615,7 @@ export default function HomeContent() {
                   {[
                     { k: "Phone", v: "+65 8221 6423" },
                     { k: "Email", v: "info@edusphereacademy.com.my" },
-                    { k: "Address", v: "7500A Beach Rd, #01-308 THE PLAZA, Singapore 199591" },
+                    { k: "Address", v: "7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591" },
                   ].map((x) => (
                     <div
                       key={x.k}

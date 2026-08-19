@@ -41,7 +41,7 @@ function createInitialState(initialCourseId = ""): FormState {
 }
 
 const phoneCodeOptions = [
-  { value: "+65", label: "+65 Singapore" },
+  { value: "+65", label: "+65 Malaysia" },
   { value: "+60", label: "+60 Malaysia" },
   { value: "+62", label: "+62 Indonesia" },
   { value: "+63", label: "+63 Philippines" },

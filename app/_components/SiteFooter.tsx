@@ -42,7 +42,7 @@ export default function SiteFooter({ className }: FooterProps) {
       href: "/courses/barista-arts",
     },
     {
-      label: "All Courses in Singapore",
+      label: "All Courses in Malaysia",
       href: "/courses",
     },
   ];
@@ -65,7 +65,7 @@ export default function SiteFooter({ className }: FooterProps) {
               <span className="grid h-20 w-20 place-items-center overflow-hidden rounded-2xl bg-white p-2 ring-1 ring-white/10 sm:h-24 sm:w-24">
                 <Image
                   src="/logo.png"
-                  alt="Edusphere Academy — skills training academy in Singapore"
+                  alt="Edusphere Academy — skills training academy in Malaysia"
                   width={96}
                   height={192}
                   className="h-full w-full object-contain"
@@ -90,8 +90,8 @@ export default function SiteFooter({ className }: FooterProps) {
                 {
                   icon: FiMapPin,
                   title: "Visit us",
-                  text: "7500A Beach Rd, #01-308 THE PLAZA, Singapore 199591",
-                  href: "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Singapore%20199591",
+                  text: "7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591",
+                  href: "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Malaysia%20199591",
                 },
               ].map((item) => (
                 <a

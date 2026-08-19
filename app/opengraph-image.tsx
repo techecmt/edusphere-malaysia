@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Edusphere Academy — Skills Training Academy in Singapore, Beach Road";
+  "Edusphere Academy — Skills Training Academy in Malaysia, Beach Road";
 export const size = {
   width: 1200,
   height: 630,
@@ -46,7 +46,7 @@ export default function Image() {
             maxWidth: 950,
           }}
         >
-          Skills Training Academy in Singapore
+          Skills Training Academy in Malaysia
         </div>
         <div
           style={{

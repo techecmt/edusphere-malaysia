@@ -335,7 +335,7 @@ export default function ProfessionalCaregivingContent() {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.25 }}
                 className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 sm:text-lg"
               >
-                A 36-hour caregiver course in Singapore covering three high-demand
+                A 36-hour caregiver course in Malaysia covering three high-demand
                 caregiving specialisations — elderly care, autism care, and child
                 care. Gain hands-on, person-centred caregiving skills to support
                 the physical, emotional, developmental, and social well-being of
@@ -799,7 +799,7 @@ export default function ProfessionalCaregivingContent() {
               >
                 <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
                   <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Singapore Dollars
+                    Part-time · Malaysia Dollars
                   </div>
                   <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
                 </div>

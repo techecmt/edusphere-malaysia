@@ -262,10 +262,10 @@ export default function HospitalHealthcareAdministrationContent() {
                 className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 sm:text-lg"
               >
                 A 36-hour, industry-focused healthcare administration course in
-                Singapore building practical skills in healthcare operations,
+                Malaysia building practical skills in healthcare operations,
                 patient administration, medical records, healthcare IT systems,
                 and customer service excellence — ready for administrative and
-                operational roles in Singapore&rsquo;s hospitals, clinics, and
+                operational roles in Malaysia&rsquo;s hospitals, clinics, and
                 healthcare organisations. Weekend classes at our Beach Road campus
                 (The Plaza), near Nicoll Highway and Bugis MRT.
               </motion.p>
@@ -712,7 +712,7 @@ export default function HospitalHealthcareAdministrationContent() {
               >
                 <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
                   <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Singapore Dollars
+                    Part-time · Malaysia Dollars
                   </div>
                   <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
                 </div>

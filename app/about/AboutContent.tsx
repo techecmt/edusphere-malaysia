@@ -208,7 +208,7 @@ export default function AboutContent() {
                   <span className="grid h-5 w-5 place-items-center rounded-full bg-(--brand) text-white">
                     <FiZap className="h-3.5 w-3.5" aria-hidden />
                   </span>
-                  Singapore-based skill development institute
+                  Malaysia-based skill development institute
                 </div>
 
                 <motion.h1
@@ -222,7 +222,7 @@ export default function AboutContent() {
                 </motion.h1>
                 <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
                   Founded in 2026, Edusphere Academy is a progressive educational
-                  institute in Singapore delivering industry-relevant skill
+                  institute in Malaysia delivering industry-relevant skill
                   development and vocational education programmes for learners
                   preparing for the evolving global workforce.
                 </p>
@@ -320,7 +320,7 @@ export default function AboutContent() {
                   Edusphere Academy specializes in Certificate and Diploma level
                   programmes across high-demand sectors, equipping learners with
                   hands-on competencies, technical expertise, and professional
-                  readiness for Singapore and international markets.
+                  readiness for Malaysia and international markets.
                 </p>
                 <div className="mt-6 rounded-3xl border border-(--border) bg-(--surface-2) p-5">
                   <div className="flex items-center gap-3">

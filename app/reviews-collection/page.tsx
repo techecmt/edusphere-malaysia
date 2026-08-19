@@ -4,7 +4,7 @@ import ReviewsCollectionContent from "./ReviewsCollectionContent";
 export const metadata: Metadata = {
   title: "Share Your Student Review",
   description:
-    "Share your experience as a Edusphere Academy student. Your feedback helps future learners in Singapore choose the right course.",
+    "Share your experience as a Edusphere Academy student. Your feedback helps future learners in Malaysia choose the right course.",
   robots: {
     index: false,
     follow: true,

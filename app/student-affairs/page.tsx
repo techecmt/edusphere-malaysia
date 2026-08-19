@@ -8,13 +8,13 @@ import { breadcrumbJsonLd } from "../data/seo";
 export const metadata: Metadata = {
   title: "Student Affairs & Learner Support",
   description:
-    "Student Affairs at Edusphere Academy Singapore — course counselling, enrolment support, academic guidance, and learner wellbeing services for students at our Beach Road campus.",
+    "Student Affairs at Edusphere Academy Malaysia — course counselling, enrolment support, academic guidance, and learner wellbeing services for students at our Beach Road campus.",
   alternates: { canonical: "/student-affairs" },
   openGraph: {
     url: "/student-affairs",
     title: "Student Affairs & Learner Support | Edusphere Academy",
     description:
-      "Course counselling, enrolment support, academic guidance, and learner wellbeing services at Edusphere Academy Singapore.",
+      "Course counselling, enrolment support, academic guidance, and learner wellbeing services at Edusphere Academy Malaysia.",
   },
 };
 
@@ -40,7 +40,7 @@ export default function StudentAffairsPage() {
           Student Affairs
         </h1>
         <p className="mt-5 max-w-3xl text-sm leading-relaxed text-slate-600 sm:text-base">
-          Student Affairs supports learners at Edusphere Academy Singapore
+          Student Affairs supports learners at Edusphere Academy Malaysia
           throughout their learning journey — from course counselling and
           enrolment guidance to academic support and learner wellbeing at our
           Beach Road campus.

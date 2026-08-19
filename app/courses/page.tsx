@@ -9,30 +9,30 @@ import { courses } from "../data/coursedata";
 import { absoluteUrl, breadcrumbJsonLd, courseSeoBySlug } from "../data/seo";
 
 export const metadata: Metadata = {
-  title: "Certificate Courses in Singapore",
+  title: "Certificate Courses in Malaysia",
   description:
-    "Browse all Edusphere Academy certificate courses in Singapore — nursing aide, professional caregiving (elderly, autism & child care), hospital & healthcare administration, and barista arts. Weekend classes at Beach Road, near Nicoll Highway & Bugis MRT.",
+    "Browse all Edusphere Academy certificate courses in Malaysia — nursing aide, professional caregiving (elderly, autism & child care), hospital & healthcare administration, and barista arts. Weekend classes at Beach Road, near Nicoll Highway & Bugis MRT.",
   keywords: [
-    "certificate courses Singapore",
-    "skills training courses Singapore",
-    "healthcare courses Singapore",
-    "caregiver course Singapore",
-    "barista course Singapore",
-    "part-time courses Beach Road Singapore",
+    "certificate courses Malaysia",
+    "skills training courses Malaysia",
+    "healthcare courses Malaysia",
+    "caregiver course Malaysia",
+    "barista course Malaysia",
+    "part-time courses Beach Road Malaysia",
   ],
   alternates: { canonical: "/courses" },
   openGraph: {
     url: "/courses",
-    title: "Certificate Courses in Singapore | Edusphere Academy",
+    title: "Certificate Courses in Malaysia | Edusphere Academy",
     description:
-      "Nursing aide, caregiving, healthcare administration and barista arts courses — weekend classes at Beach Road, Singapore.",
+      "Nursing aide, caregiving, healthcare administration and barista arts courses — weekend classes at Beach Road, Malaysia.",
   },
 };
 
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Edusphere Academy Courses in Singapore",
+  name: "Edusphere Academy Courses in Malaysia",
   itemListElement: courses.map((course, index) => ({
     "@type": "ListItem",
     position: index + 1,
@@ -81,7 +81,7 @@ export default function CoursesPage() {
 
             <h1 className="mt-6 max-w-3xl text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
               Certificate Courses in{" "}
-              <span className="text-(--brand)">Singapore</span>
+              <span className="text-(--brand)">Malaysia</span>
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
               Practical, part-time certificate courses in healthcare, caregiving,
@@ -93,7 +93,7 @@ export default function CoursesPage() {
 
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/80 px-4 py-2 text-xs font-semibold text-slate-700">
               <FiMapPin className="h-4 w-4 text-(--brand)" aria-hidden />
-              7500A Beach Rd, #01-308 THE PLAZA, Singapore 199591 · Open Mon–Sun,
+              7500A Beach Rd, #01-308 THE PLAZA, Malaysia 199591 · Open Mon–Sun,
               9am–6pm
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function CoursesPage() {
                   >
                     <div className="relative h-56 overflow-hidden bg-slate-100 sm:h-64">
                       <Image
-                        alt={`${course.title} — course in Singapore at Edusphere Academy`}
+                        alt={`${course.title} — course in Malaysia at Edusphere Academy`}
                         src={course.image}
                         fill
                         sizes="(min-width: 768px) 50vw, 100vw"
@@ -142,7 +142,7 @@ export default function CoursesPage() {
                         </span>
                         <span className="inline-flex items-center gap-1.5 rounded-full bg-(--surface-2) px-3 py-1">
                           <FiMapPin className="h-3.5 w-3.5 text-(--brand)" aria-hidden />
-                          Beach Road, Singapore
+                          Beach Road, Malaysia
                         </span>
                       </div>
 
@@ -185,7 +185,7 @@ export default function CoursesPage() {
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
                 Whether you&rsquo;re upskilling as healthcare support staff, an
                 employer training caregivers, or starting a barista career in
-                Singapore&rsquo;s F&amp;B scene, our team can recommend the right
+                Malaysia&rsquo;s F&amp;B scene, our team can recommend the right
                 programme and share upcoming intake dates.
               </p>
               <Link

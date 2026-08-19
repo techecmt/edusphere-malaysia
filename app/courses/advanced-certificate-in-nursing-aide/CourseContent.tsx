@@ -262,10 +262,10 @@ export default function NursingAideContent() {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.25 }}
                 className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 sm:text-lg"
               >
-                A 36-hour nursing aide course in Singapore combining classroom
+                A 36-hour nursing aide course in Malaysia combining classroom
                 learning with hands-on practical training in first aid &amp; CPR,
                 wound care support, and physiotherapy skills — preparing you to
-                deliver safe, compassionate care across Singapore&rsquo;s hospitals,
+                deliver safe, compassionate care across Malaysia&rsquo;s hospitals,
                 nursing homes, rehabilitation centres, and home care settings.
                 Weekend classes at our Beach Road campus (The Plaza), minutes from
                 Nicoll Highway and Bugis MRT.
@@ -726,7 +726,7 @@ export default function NursingAideContent() {
               >
                 <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
                   <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Singapore Dollars
+                    Part-time · Malaysia Dollars
                   </div>
                   <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
                 </div>

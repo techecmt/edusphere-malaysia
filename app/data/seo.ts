@@ -8,7 +8,7 @@ export const SITE = {
   logo: "/logo.png",
   address: {
     street: "7500A Beach Road, #01-308 The Plaza",
-    locality: "Singapore",
+    locality: "Malaysia",
     postalCode: "199591",
     countryCode: "SG",
   },
@@ -17,7 +17,7 @@ export const SITE = {
     longitude: 103.863,
   },
   mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Singapore%20199591",
+    "https://www.google.com/maps/search/?api=1&query=7500A%20Beach%20Rd%20%2301-308%20THE%20PLAZA%20Malaysia%20199591",
   openingHours: {
     days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
     opens: "09:00",
@@ -47,20 +47,20 @@ export type CourseSeo = {
 export const courseSeoBySlug: Record<string, CourseSeo> = {
   "advanced-certificate-in-nursing-aide": {
     slug: "advanced-certificate-in-nursing-aide",
-    metaTitle: "Nursing Aide Course in Singapore (Advanced Certificate)",
+    metaTitle: "Nursing Aide Course in Malaysia (Advanced Certificate)",
     metaDescription:
-      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Beach Road Singapore — near Nicoll Highway & Bugis MRT. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
     keywords: [
-      "nursing aide course Singapore",
-      "healthcare assistant course Singapore",
-      "patient care assistant training Singapore",
-      "first aid CPR course Singapore",
-      "wound care course Singapore",
+      "nursing aide course Malaysia",
+      "healthcare assistant course Malaysia",
+      "patient care assistant training Malaysia",
+      "first aid CPR course Malaysia",
+      "wound care course Malaysia",
       "nursing aide certificate Beach Road",
     ],
     courseName: "Advanced Certificate in Nursing Aide",
     courseDescription:
-      "A 36-hour part-time programme in Singapore combining classroom learning with hands-on practical training in first aid & CPR/AED, wound care support, and physiotherapy support skills — preparing students for healthcare support roles in hospitals, nursing homes, rehabilitation centres, and home care settings.",
+      "A 36-hour part-time programme in Malaysia combining classroom learning with hands-on practical training in first aid & CPR/AED, wound care support, and physiotherapy support skills — preparing students for healthcare support roles in hospitals, nursing homes, rehabilitation centres, and home care settings.",
     credentialAwarded: "Advanced Certificate in Nursing Aide",
     priceSGD: 600,
     teaches: [
@@ -80,21 +80,21 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
   },
   "advanced-certificate-in-professional-caregiving": {
     slug: "advanced-certificate-in-professional-caregiving",
-    metaTitle: "Caregiver Course in Singapore — Elderly, Autism & Child Care",
+    metaTitle: "Caregiver Course in Malaysia — Elderly, Autism & Child Care",
     metaDescription:
-      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Beach Road Singapore — near Nicoll Highway & Bugis MRT. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
     keywords: [
-      "caregiver course Singapore",
-      "caregiver training Singapore",
-      "elderly care course Singapore",
-      "autism caregiving course Singapore",
-      "childcare course Singapore",
-      "caregiver training for domestic helpers Singapore",
+      "caregiver course Malaysia",
+      "caregiver training Malaysia",
+      "elderly care course Malaysia",
+      "autism caregiving course Malaysia",
+      "childcare course Malaysia",
+      "caregiver training for domestic helpers Malaysia",
     ],
     courseName:
       "Advanced Certificate in Professional Caregiving (Elderly, Autism & Child Care)",
     courseDescription:
-      "A 36-hour part-time caregiving programme in Singapore covering three high-demand specialisations — elderly care, autism care, and child care — with hands-on, person-centred training for home, community, and institutional care settings.",
+      "A 36-hour part-time caregiving programme in Malaysia covering three high-demand specialisations — elderly care, autism care, and child care — with hands-on, person-centred training for home, community, and institutional care settings.",
     credentialAwarded: "Advanced Certificate in Professional Caregiving",
     priceSGD: 600,
     teaches: [
@@ -113,19 +113,19 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
   },
   "hospital-healthcare-administration": {
     slug: "hospital-healthcare-administration",
-    metaTitle: "Healthcare Administration Course in Singapore",
+    metaTitle: "Healthcare Administration Course in Malaysia",
     metaDescription:
-      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Beach Road Singapore — near Nicoll Highway & Bugis MRT. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
+      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
     keywords: [
-      "healthcare administration course Singapore",
-      "hospital administration course Singapore",
-      "medical records course Singapore",
-      "patient service associate course Singapore",
-      "clinic administration training Singapore",
+      "healthcare administration course Malaysia",
+      "hospital administration course Malaysia",
+      "medical records course Malaysia",
+      "patient service associate course Malaysia",
+      "clinic administration training Malaysia",
     ],
     courseName: "Advanced Certificate in Hospital & Healthcare Administration",
     courseDescription:
-      "A 36-hour, industry-focused programme in Singapore building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.",
+      "A 36-hour, industry-focused programme in Malaysia building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.",
     credentialAwarded: "Advanced Certificate in Hospital & Healthcare Administration",
     priceSGD: 1200,
     teaches: [
@@ -144,20 +144,20 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
   },
   "barista-arts": {
     slug: "barista-arts",
-    metaTitle: "Barista Course in Singapore (Certificate in Barista Arts)",
+    metaTitle: "Barista Course in Malaysia (Certificate in Barista Arts)",
     metaDescription:
-      "36-hour Certificate in Barista Arts at Edusphere Academy, Beach Road Singapore — near Nicoll Highway & Bugis MRT. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
+      "36-hour Certificate in Barista Arts at Edusphere Academy, Beach Road Malaysia — near Nicoll Highway & Bugis MRT. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
     keywords: [
-      "barista course Singapore",
-      "barista training Singapore",
-      "coffee making class Singapore",
-      "latte art class Singapore",
-      "barista certificate Singapore",
-      "F&B course Singapore",
+      "barista course Malaysia",
+      "barista training Malaysia",
+      "coffee making class Malaysia",
+      "latte art class Malaysia",
+      "barista certificate Malaysia",
+      "F&B course Malaysia",
     ],
     courseName: "Certificate in Barista Arts",
     courseDescription:
-      "A 36-hour part-time barista training programme in Singapore covering espresso extraction, milk texturing, latte art, and café service — preparing students for barista and café roles in coffee chains, hotels, and specialty coffee establishments.",
+      "A 36-hour part-time barista training programme in Malaysia covering espresso extraction, milk texturing, latte art, and café service — preparing students for barista and café roles in coffee chains, hotels, and specialty coffee establishments.",
     credentialAwarded: "Certificate in Barista Arts",
     priceSGD: 600,
     teaches: [
@@ -205,7 +205,7 @@ export function organizationJsonLd() {
     hasMap: SITE.mapUrl,
     areaServed: {
       "@type": "Country",
-      name: "Singapore",
+      name: "Malaysia",
     },
     openingHoursSpecification: [
       {

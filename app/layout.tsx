@@ -19,19 +19,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Edusphere Academy | Skills Training Academy in Singapore",
+    default: "Edusphere Academy | Skills Training Academy in Malaysia",
     template: "%s | Edusphere Academy",
   },
   description:
-    "Edusphere Academy is a skills training academy at Beach Road, Singapore (near Nicoll Highway & Bugis MRT) offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
+    "Edusphere Academy is a skills training academy at Beach Road, Malaysia (near Nicoll Highway & Bugis MRT) offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
   keywords: [
-    "skills training academy Singapore",
-    "healthcare courses Singapore",
-    "caregiver course Singapore",
-    "nursing aide course Singapore",
-    "healthcare administration course Singapore",
-    "barista course Singapore",
-    "certificate courses Beach Road Singapore",
+    "skills training academy Malaysia",
+    "healthcare courses Malaysia",
+    "caregiver course Malaysia",
+    "nursing aide course Malaysia",
+    "healthcare administration course Malaysia",
+    "barista course Malaysia",
+    "certificate courses Beach Road Malaysia",
   ],
   applicationName: SITE.name,
   category: "education",
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
     locale: "en_SG",
     siteName: SITE.name,
     url: "/",
-    title: "Edusphere Academy | Skills Training Academy in Singapore",
+    title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Singapore.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Malaysia.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Edusphere Academy | Skills Training Academy in Singapore",
+    title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Singapore.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts at Beach Road, Malaysia.",
   },
   robots: {
     index: true,

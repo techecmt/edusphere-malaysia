@@ -241,10 +241,10 @@ export default function BaristaArtsContent() {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.25 }}
                 className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 sm:text-lg"
               >
-                A hands-on barista course in Singapore — master espresso
+                A hands-on barista course in Malaysia — master espresso
                 extraction, milk texturing, latte art, and café service, ready for
                 cafés, coffee chains, hotels, and specialty coffee establishments
-                in Singapore and beyond. Weekend classes at our Beach Road campus
+                in Malaysia and beyond. Weekend classes at our Beach Road campus
                 (The Plaza), near Bugis and Nicoll Highway MRT.
               </motion.p>
 
@@ -317,17 +317,17 @@ export default function BaristaArtsContent() {
                   The Certificate in Barista Art equips learners with the practical
                   barista competencies required for employment in cafés, coffee
                   chains, restaurants, bakeries, hotels, and specialty coffee
-                  establishments in Singapore and the region. Learners undergo
+                  establishments in Malaysia and the region. Learners undergo
                   intensive practical sessions that simulate real café environments.
                 </p>
 
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
                   New to coffee? Read our guide on{" "}
                   <Link
-                    href="/blog/how-to-become-a-barista-in-singapore"
+                    href="/blog/how-to-become-a-barista-in-Malaysia"
                     className="font-semibold text-(--brand) underline underline-offset-2 hover:brightness-110"
                   >
-                    how to become a barista in Singapore
+                    how to become a barista in Malaysia
                   </Link>{" "}
                   to see the skills, training options, and career paths before you
                   enrol.
@@ -673,7 +673,7 @@ export default function BaristaArtsContent() {
               >
                 <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
                   <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Singapore Dollars
+                    Part-time · Malaysia Dollars
                   </div>
                   <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
                 </div>

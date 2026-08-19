@@ -19,31 +19,31 @@ import {
 } from "../../data/seo";
 
 const post: BlogPost = {
-  slug: "how-to-become-a-barista-in-singapore",
-  title: "How to Become a Barista in Singapore: Skills, Training & Careers",
+  slug: "how-to-become-a-barista-in-Malaysia",
+  title: "How to Become a Barista in Malaysia: Skills, Training & Careers",
   description:
-    "A complete guide to becoming a barista in Singapore — what baristas do, the skills you need, how a barista course works, coffee training options, and career paths in Singapore's café and F&B scene.",
+    "A complete guide to becoming a barista in Malaysia — what baristas do, the skills you need, how a barista course works, coffee training options, and career paths in Malaysia's café and F&B scene.",
   image:
     "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1400&q=80",
   imageAlt:
-    "Barista preparing espresso on a café coffee machine in Singapore",
+    "Barista preparing espresso on a café coffee machine in Malaysia",
   datePublished: "2026-07-12",
   dateModified: "2026-07-12",
   keywords: [
-    "barista course Singapore",
-    "barista training Singapore",
-    "how to become a barista Singapore",
-    "coffee making course Singapore",
-    "barista classes Singapore",
-    "coffee training course Singapore",
-    "barista certificate Singapore",
-    "barista academy Singapore",
+    "barista course Malaysia",
+    "barista training Malaysia",
+    "how to become a barista Malaysia",
+    "coffee making course Malaysia",
+    "barista classes Malaysia",
+    "coffee training course Malaysia",
+    "barista certificate Malaysia",
+    "barista academy Malaysia",
   ],
 };
 
 const faqs = [
   {
-    q: "Do I need experience to become a barista in Singapore?",
+    q: "Do I need experience to become a barista in Malaysia?",
     a: "No. Most cafés and coffee chains hire beginners and train on the job, and a structured barista course is designed for people with no prior experience. What matters most is a willingness to learn, good hygiene habits, speed under pressure, and friendly customer service.",
   },
   {
@@ -51,8 +51,8 @@ const faqs = [
     a: "It varies by provider. A focused barista course typically runs from a single day up to several weeks of part-time classes. Edusphere Academy's Certificate in Barista Arts is a 36-hour part-time programme with weekend sessions, so you can train while working or studying.",
   },
   {
-    q: "Is barista a good career in Singapore?",
-    a: "Singapore's café, specialty coffee, and hospitality scene is large and growing, so trained baristas are in steady demand. Barista work also opens progression into senior barista, café supervisor, and coffee trainer roles, and the skills transfer across cafés, hotels, and coffee chains.",
+    q: "Is barista a good career in Malaysia?",
+    a: "Malaysia's café, specialty coffee, and hospitality scene is large and growing, so trained baristas are in steady demand. Barista work also opens progression into senior barista, café supervisor, and coffee trainer roles, and the skills transfer across cafés, hotels, and coffee chains.",
   },
   {
     q: "What is the difference between a barista and a barrister?",
@@ -63,13 +63,13 @@ const faqs = [
     a: "A good barista course covers espresso extraction, milk steaming and texturing, latte art, coffee theory, café workflow and service, machine handling, and hygiene. Edusphere Academy's programme combines classroom learning with hands-on practical training on real equipment.",
   },
   {
-    q: "Where can I take a barista course in Singapore?",
+    q: "Where can I take a barista course in Malaysia?",
     a: "Edusphere Academy runs its Certificate in Barista Arts at our Beach Road campus (The Plaza, 7500A Beach Road), a short walk from Bugis and Nicoll Highway MRT. Classes are held on weekends and the campus is open Monday to Sunday, 9am to 6pm.",
   },
 ];
 
 export const metadata: Metadata = {
-  title: "How to Become a Barista in Singapore: Skills, Training & Careers",
+  title: "How to Become a Barista in Malaysia: Skills, Training & Careers",
   description: post.description,
   keywords: post.keywords,
   alternates: { canonical: `/blog/${post.slug}` },
@@ -134,7 +134,7 @@ export default function Page() {
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
             { name: "Blog", path: `/blog/${post.slug}` },
-            { name: "How to Become a Barista in Singapore", path: `/blog/${post.slug}` },
+            { name: "How to Become a Barista in Malaysia", path: `/blog/${post.slug}` },
           ]),
           faqJsonLd(faqs),
         ]}
@@ -172,17 +172,17 @@ export default function Page() {
 
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/80 px-4 py-2 text-xs font-semibold text-slate-700">
               <FiCoffee className="h-4 w-4 text-(--brand)" aria-hidden />
-              Barista Career Guide · Singapore
+              Barista Career Guide · Malaysia
             </div>
 
             <h1 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-[44px] lg:leading-[1.1]">
-              How to Become a Barista in Singapore
+              How to Become a Barista in Malaysia
             </h1>
             <p className="mt-4 text-base leading-relaxed text-slate-600 sm:text-lg">
               Thinking about a career behind the coffee machine? This guide walks
               through what a barista does, the skills you need, how barista
               training and coffee making courses work, and the career paths open
-              to you in Singapore&rsquo;s café and F&amp;B scene.
+              to you in Malaysia&rsquo;s café and F&amp;B scene.
             </p>
           </div>
         </section>
@@ -214,7 +214,7 @@ export default function Page() {
                 A good barista dials in the espresso, steams and textures milk,
                 pours latte art, keeps the workflow fast and clean during a
                 rush, and makes every customer feel looked after. In
-                Singapore&rsquo;s competitive café scene, consistency and speed
+                Malaysia&rsquo;s competitive café scene, consistency and speed
                 are what separate a trained barista from a beginner.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
@@ -246,10 +246,10 @@ export default function Page() {
             {/* Career outlook */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Is being a barista a good career in Singapore?
+                Is being a barista a good career in Malaysia?
               </h2>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                Singapore has one of Asia&rsquo;s most vibrant coffee cultures,
+                Malaysia has one of Asia&rsquo;s most vibrant coffee cultures,
                 from third-wave specialty cafés to established coffee chains and
                 hotel F&amp;B outlets. That breadth means steady demand for
                 skilled baristas, and it makes barista work an accessible entry
@@ -355,7 +355,7 @@ export default function Page() {
                   </span>
                   <span className="inline-flex items-center gap-2">
                     <FiMapPin className="h-4 w-4 text-(--brand)" aria-hidden />
-                    Beach Road campus, Singapore
+                    Beach Road campus, Malaysia
                   </span>
                 </div>
                 <Link
@@ -371,11 +371,11 @@ export default function Page() {
             {/* How to choose */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                How to choose a barista course in Singapore
+                How to choose a barista course in Malaysia
               </h2>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 Not every barista class is equal. When you compare coffee training
-                courses in Singapore, look for these things:
+                courses in Malaysia, look for these things:
               </p>
               <ul className="mt-5 space-y-3">
                 {chooseFactors.map((factor) => (
@@ -398,13 +398,13 @@ export default function Page() {
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 Edusphere Academy runs the Certificate in Barista Arts at our campus in
                 The Plaza, 7500A Beach Road — a short walk from Bugis and Nicoll
-                Highway MRT, in the heart of Singapore&rsquo;s Bugis–Kallang
+                Highway MRT, in the heart of Malaysia&rsquo;s Bugis–Kallang
                 corridor. Weekend classes are built for working adults and career
                 switchers, and our campus is open seven days a week.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 If you&rsquo;re ready to turn a love of coffee into a real skill —
-                and a career in Singapore&rsquo;s café scene — a hands-on barista
+                and a career in Malaysia&rsquo;s café scene — a hands-on barista
                 course is the fastest way in.
               </p>
             </section>
