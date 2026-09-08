@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { IconType } from "react-icons";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import { SiTiktok, SiYoutube } from "react-icons/si";
+import { FaFacebookF } from "react-icons/fa";
+import { SiYoutube } from "react-icons/si";
 import {
   FiChevronRight,
   FiMapPin,
@@ -61,8 +61,6 @@ export default function SiteHeader() {
   const socials = useMemo(
     () => [
       { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589531251092", icon: FaFacebookF },
-      { label: "Instagram", href: "https://www.instagram.com/lumax.academy/", icon: FaInstagram },
-      { label: "TikTok", href: "https://www.tiktok.com/@lumax.academy4", icon: SiTiktok },
       { label: "YouTube", href: "https://www.youtube.com/@edusphereacademy", icon: SiYoutube },
     ],
     []

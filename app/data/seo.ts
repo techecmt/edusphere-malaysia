@@ -31,8 +31,6 @@ export const SITE = {
   },
   socials: [
     "https://www.facebook.com/profile.php?id=61589531251092",
-    "https://www.instagram.com/lumax.academy/",
-    "https://www.tiktok.com/@lumax.academy4",
     "https://www.youtube.com/@edusphereacademy",
   ],
 };

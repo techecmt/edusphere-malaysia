@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { IconType } from "react-icons";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 import { FiArrowRight, FiArrowUp, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
-import { SiTiktok, SiYoutube } from "react-icons/si";
+import { SiYoutube } from "react-icons/si";
 
 type FooterProps = {
   className?: string;
@@ -12,8 +12,6 @@ type FooterProps = {
 export default function SiteFooter({ className }: FooterProps) {
   const socials: { label: string; href: string; icon: IconType }[] = [
     { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589531251092", icon: FaFacebookF },
-    { label: "Instagram", href: "https://www.instagram.com/lumax.academy/", icon: FaInstagram },
-    { label: "TikTok", href: "https://www.tiktok.com/@lumax.academy4", icon: SiTiktok },
     { label: "YouTube", href: "https://www.youtube.com/@edusphereacademy", icon: SiYoutube },
   ];
 

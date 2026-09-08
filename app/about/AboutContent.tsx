@@ -23,6 +23,7 @@ import {
   FiLayers,
   FiMonitor,
   FiSettings,
+  FiShield,
   FiTarget,
   FiTool,
   FiTrendingUp,
@@ -40,31 +41,31 @@ const sectors: { title: string; icon: IconType }[] = [
   { title: "Robotics & Automation", icon: FiCpu },
 ];
 
-const coreValues = [
+const coreValues: { title: string; desc: string; icon: IconType }[] = [
   {
-    letter: "L",
     title: "Lifelong Learning",
     desc: "We promote continuous learning, growth, and professional development for an evolving global workforce.",
+    icon: FiBookOpen,
   },
   {
-    letter: "U",
     title: "Unity & Inclusivity",
     desc: "We foster a respectful, diverse, and collaborative environment where everyone has equal opportunities to succeed.",
+    icon: FiUsers,
   },
   {
-    letter: "M",
     title: "Mastery Through Practical Skills",
     desc: "We emphasize hands-on training, competency-based learning, and skills that enhance employability.",
+    icon: FiAward,
   },
   {
-    letter: "A",
     title: "Adaptability & Innovation",
     desc: "We embrace technology, creativity, and innovation to prepare learners for modern industries.",
+    icon: FiCpu,
   },
   {
-    letter: "X",
-    title: "eXcellence with Integrity",
+    title: "Excellence with Integrity",
     desc: "We uphold professionalism, quality education, honesty, and ethical practice in everything we do.",
+    icon: FiShield,
   },
 ];
 
@@ -411,7 +412,7 @@ export default function AboutContent() {
               </div>
               <BlurText
                 as="h2"
-                text="L.U.M.A.X values that guide every learner journey"
+                text="Core values that guide every learner journey"
                 delay={110}
                 animateBy="words"
                 direction="top"
@@ -426,11 +427,11 @@ export default function AboutContent() {
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
               {coreValues.map((value) => (
                 <div
-                  key={value.letter}
+                  key={value.title}
                   className="rounded-3xl border border-(--border) bg-white p-5 shadow-[0_18px_70px_-65px_rgba(2,6,23,0.65)]"
                 >
-                  <div className="grid h-12 w-12 place-items-center rounded-2xl bg-(--brand) text-xl font-extrabold text-white">
-                    {value.letter}
+                  <div className="grid h-12 w-12 place-items-center rounded-2xl bg-(--brand) text-white">
+                    <value.icon className="h-6 w-6" aria-hidden />
                   </div>
                   <h3 className="mt-5 text-base font-extrabold text-slate-950">
                     {value.title}

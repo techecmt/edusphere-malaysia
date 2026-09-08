@@ -201,7 +201,7 @@ export default function Page() {
             </div>
           </figure>
 
-          <div className="prose-lumax mt-10 space-y-10">
+          <div className="mt-10 space-y-10">
             {/* What a barista does */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">

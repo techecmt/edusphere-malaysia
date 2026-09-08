@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 
+/** Supabase table for website reviews. Set `SUPABASE_REVIEWS_TABLE` if your table name differs. */
+const REVIEWS_TABLE = process.env.SUPABASE_REVIEWS_TABLE ?? "website_reviews";
+
 type ReviewRequest = {
   name?: unknown;
   overallRating?: unknown;
@@ -55,7 +58,7 @@ export async function GET(request: Request) {
       : 6;
 
   const response = await fetch(
-    `${cfg.supabaseUrl}/rest/v1/lumax_website_reviews?select=id,name,overall_rating,training_rating,trainer_rating,description,created_at&order=created_at.desc&limit=${limit}`,
+    `${cfg.supabaseUrl}/rest/v1/${REVIEWS_TABLE}?select=id,name,overall_rating,training_rating,trainer_rating,description,created_at&order=created_at.desc&limit=${limit}`,
     {
       method: "GET",
       headers: {
@@ -122,7 +125,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const response = await fetch(`${cfg.supabaseUrl}/rest/v1/lumax_website_reviews`, {
+  const response = await fetch(`${cfg.supabaseUrl}/rest/v1/${REVIEWS_TABLE}`, {
     method: "POST",
     headers: {
       apikey: cfg.supabaseKey,

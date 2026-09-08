@@ -3,7 +3,6 @@ import { NextResponse } from "next/server";
 /** Default `public.colleges` row for website enquiries. Override in env if the id differs per project. */
 const EDUSPHERE_ACADEMY_MALAYSIA_COLLEGE_ID =
   process.env.EDUSPHERE_ACADEMY_MALAYSIA_COLLEGE_ID ??
-  process.env.LUMAX_ACADEMY_COLLEGE_ID ??
   "3ca21d90-fadf-4371-9f39-5ae0965531a1";
 
 /** Keep source as a valid enum value from the leads table. */
