@@ -72,12 +72,12 @@ export default function RootLayout({
       lang="en-SG"
       className={`${poppins.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <GoogleTagManager gtmId="GTM-PW2QCJC4" />
+      <GoogleTagManager gtmId="GTM-N369GGSW" />
       <body className="min-h-full flex flex-col">
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PW2QCJC4"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N369GGSW"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
