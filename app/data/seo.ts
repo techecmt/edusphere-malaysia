@@ -43,9 +43,10 @@ export type CourseSeo = {
   courseName: string;
   courseDescription: string;
   credentialAwarded: string;
-  priceSGD: number;
+  priceMYR: number;
   teaches: string[];
   occupations: string[];
+  faqs: { q: string; a: string }[];
 };
 
 export const courseSeoBySlug: Record<string, CourseSeo> = {
@@ -66,7 +67,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time programme in Malaysia combining classroom learning with hands-on practical training in first aid & CPR/AED, wound care support, and physiotherapy support skills — preparing students for healthcare support roles in hospitals, nursing homes, rehabilitation centres, and home care settings.",
     credentialAwarded: "Advanced Certificate in Nursing Aide",
-    priceSGD: 600,
+    priceMYR: 600,
     teaches: [
       "First aid and emergency response",
       "CPR and AED skills",
@@ -80,6 +81,24 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       "Healthcare Assistant",
       "Patient Care Assistant",
       "Home Care Aide",
+    ],
+    faqs: [
+      {
+        q: "Who is the Advanced Certificate in Nursing Aide for?",
+        a: "The programme suits healthcare support staff, caregivers, and beginners who want structured training in first aid, CPR/AED, wound care support, and physiotherapy support skills for hospitals, nursing homes, and home care in Malaysia.",
+      },
+      {
+        q: "How long is the nursing aide course at Edusphere Academy?",
+        a: "It is a 36-hour part-time programme over 12 weeks, with weekend face-to-face classes at our Taman Universiti, Skudai, Johor campus.",
+      },
+      {
+        q: "What certificate will I receive?",
+        a: "Graduates receive the Advanced Certificate in Nursing Aide from Edusphere Academy after completing modules and assessments.",
+      },
+      {
+        q: "Where is Edusphere Academy located?",
+        a: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia. The campus is open Monday to Sunday, 9am to 6pm.",
+      },
     ],
   },
   "advanced-certificate-in-professional-caregiving": {
@@ -100,7 +119,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time caregiving programme in Malaysia covering three high-demand specialisations — elderly care, autism care, and child care — with hands-on, person-centred training for home, community, and institutional care settings.",
     credentialAwarded: "Advanced Certificate in Professional Caregiving",
-    priceSGD: 600,
+    priceMYR: 600,
     teaches: [
       "Elderly caregiving",
       "Autism care support",
@@ -113,6 +132,24 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       "Elderly Care Assistant",
       "Special Needs Support Aide",
       "Childcare Support Assistant",
+    ],
+    faqs: [
+      {
+        q: "What does the professional caregiving course cover?",
+        a: "The 36-hour programme covers elderly care, autism care, and child care with hands-on, person-centred training for home, community, and institutional settings in Malaysia.",
+      },
+      {
+        q: "Do I need prior experience to join the caregiver course?",
+        a: "No prior clinical qualification is required. The course is designed for new and practising caregivers who want formal certificate training.",
+      },
+      {
+        q: "When are classes held?",
+        a: "Classes run on weekends in a part-time format at our Skudai, Johor campus, so you can study while working.",
+      },
+      {
+        q: "What qualification do I get after completing the course?",
+        a: "You will be awarded the Advanced Certificate in Professional Caregiving (Elderly, Autism & Child Care) from Edusphere Academy.",
+      },
     ],
   },
   "hospital-healthcare-administration": {
@@ -131,7 +168,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour, industry-focused programme in Malaysia building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.",
     credentialAwarded: "Advanced Certificate in Hospital & Healthcare Administration",
-    priceSGD: 1200,
+    priceMYR: 1200,
     teaches: [
       "Healthcare operations",
       "Patient administration",
@@ -144,6 +181,24 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       "Patient Service Coordinator",
       "Clinic Front Office Executive",
       "Healthcare Operations Staff",
+    ],
+    faqs: [
+      {
+        q: "What skills does the healthcare administration course teach?",
+        a: "The programme builds practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service for hospitals, clinics, and healthcare organisations in Malaysia.",
+      },
+      {
+        q: "How long is the hospital administration certificate programme?",
+        a: "It is 36 contact hours delivered part-time over 12 weeks with weekend classes at Edusphere Academy, Skudai, Johor.",
+      },
+      {
+        q: "Is this course suitable for clinic front desk staff?",
+        a: "Yes. Patient service coordinators, clinic front office teams, and hospital administrator assistants are among the intended learners.",
+      },
+      {
+        q: "What credential is awarded?",
+        a: "Graduates receive the Advanced Certificate in Hospital & Healthcare Administration from Edusphere Academy.",
+      },
     ],
   },
   "barista-arts": {
@@ -163,7 +218,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time barista training programme in Malaysia covering espresso extraction, milk texturing, latte art, and café service — preparing students for barista and café roles in coffee chains, hotels, and specialty coffee establishments.",
     credentialAwarded: "Certificate in Barista Arts",
-    priceSGD: 600,
+    priceMYR: 600,
     teaches: [
       "Espresso extraction",
       "Milk texturing",
@@ -172,6 +227,24 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       "Coffee fundamentals",
     ],
     occupations: ["Barista", "Café Service Crew", "Coffee Specialist"],
+    faqs: [
+      {
+        q: "Do I need experience to join the barista course in Malaysia?",
+        a: "No. The Certificate in Barista Arts is suitable for beginners and café crew who want structured hands-on training on real espresso equipment.",
+      },
+      {
+        q: "What will I learn in the barista programme?",
+        a: "Espresso extraction and calibration, milk texturing, latte art, specialty beverages, café workflow, hygiene, and customer service over 36 hours.",
+      },
+      {
+        q: "Where is the barista course held?",
+        a: "At Edusphere Academy, 45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia, with weekend part-time sessions.",
+      },
+      {
+        q: "How do I enrol in the barista course?",
+        a: "Submit an enquiry on the course page or contact info@edusphereacademy.com.my or +65 8221 6423. Our team will advise intake and fees.",
+      },
+    ],
   },
 };
 
@@ -240,8 +313,8 @@ export function courseJsonLd(seo: CourseSeo) {
     offers: {
       "@type": "Offer",
       category: "Paid",
-      price: seo.priceSGD,
-      priceCurrency: "SGD",
+      price: seo.priceMYR,
+      priceCurrency: "MYR",
       availability: "https://schema.org/InStock",
       url: absoluteUrl(`/courses/${seo.slug}`),
     },
@@ -312,7 +385,7 @@ export function articleJsonLd(post: BlogPost) {
     image: post.image,
     datePublished: post.datePublished,
     dateModified: post.dateModified,
-    inLanguage: "en-SG",
+    inLanguage: "en-MY",
     author: { "@id": organizationId },
     publisher: { "@id": organizationId },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },

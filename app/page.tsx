@@ -27,7 +27,7 @@ const websiteJsonLd = {
   name: SITE.name,
   url: SITE.url,
   publisher: { "@id": `${SITE.url}/#organization` },
-  inLanguage: "en-SG",
+  inLanguage: "en-MY",
 };
 
 export default function Home() {

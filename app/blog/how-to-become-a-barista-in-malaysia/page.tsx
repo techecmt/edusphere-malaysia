@@ -19,7 +19,7 @@ import {
 } from "../../data/seo";
 
 const post: BlogPost = {
-  slug: "how-to-become-a-barista-in-Malaysia",
+  slug: "how-to-become-a-barista-in-malaysia",
   title: "How to Become a Barista in Malaysia: Skills, Training & Careers",
   description:
     "A complete guide to becoming a barista in Malaysia — what baristas do, the skills you need, how a barista course works, coffee training options, and career paths in Malaysia's café and F&B scene.",

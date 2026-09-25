@@ -27,10 +27,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...courseEntries,
     {
-      url: absoluteUrl("/blog/how-to-become-a-barista-in-Malaysia"),
+      url: absoluteUrl("/blog/how-to-become-a-barista-in-malaysia"),
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7,
+    },
+    {
+      url: absoluteUrl("/reviews-collection"),
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.4,
     },
     {
       url: absoluteUrl("/about"),

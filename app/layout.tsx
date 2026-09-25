@@ -16,8 +16,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
+  ...(googleSiteVerification
+    ? { verification: { google: googleSiteVerification } }
+    : {}),
   title: {
     default: "Edusphere Academy | Skills Training Academy in Malaysia",
     template: "%s | Edusphere Academy",
@@ -37,7 +42,7 @@ export const metadata: Metadata = {
   category: "education",
   openGraph: {
     type: "website",
-    locale: "en_SG",
+    locale: "en_MY",
     siteName: SITE.name,
     url: "/",
     title: "Edusphere Academy | Skills Training Academy in Malaysia",
@@ -69,7 +74,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en-SG"
+      lang="en-MY"
       className={`${poppins.variable} ${geistMono.variable} h-full antialiased`}
     >
       <GoogleTagManager gtmId="GTM-N369GGSW" />

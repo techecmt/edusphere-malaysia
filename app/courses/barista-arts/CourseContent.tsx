@@ -324,7 +324,7 @@ export default function BaristaArtsContent() {
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
                   New to coffee? Read our guide on{" "}
                   <Link
-                    href="/blog/how-to-become-a-barista-in-Malaysia"
+                    href="/blog/how-to-become-a-barista-in-malaysia"
                     className="font-semibold text-(--brand) underline underline-offset-2 hover:brightness-110"
                   >
                     how to become a barista in Malaysia

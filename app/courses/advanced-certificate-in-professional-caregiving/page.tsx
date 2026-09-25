@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import CourseContent from "./CourseContent";
 import JsonLd from "../../_components/JsonLd";
-import { breadcrumbJsonLd, courseJsonLd, courseSeoBySlug } from "../../data/seo";
+import {
+  breadcrumbJsonLd,
+  courseJsonLd,
+  courseSeoBySlug,
+  faqJsonLd,
+} from "../../data/seo";
 
 const seo = courseSeoBySlug["advanced-certificate-in-professional-caregiving"];
 
@@ -28,6 +33,7 @@ export default function Page() {
             { name: "Courses", path: "/courses" },
             { name: seo.courseName, path: `/courses/${seo.slug}` },
           ]),
+          faqJsonLd(seo.faqs),
         ]}
       />
       <CourseContent />
