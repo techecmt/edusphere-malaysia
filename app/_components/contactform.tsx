@@ -30,7 +30,7 @@ function createInitialState(initialCourseId = ""): FormState {
   return {
   fullName: "",
   email: "",
-  phoneCode: "+65",
+  phoneCode: "+60",
   phoneCodeOther: "",
   phone: "",
     courseId: initialCourseId,

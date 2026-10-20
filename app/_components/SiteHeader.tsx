@@ -3,9 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import type { IconType } from "react-icons";
-import { FaFacebookF } from "react-icons/fa";
-import { SiYoutube } from "react-icons/si";
 import {
   FiChevronRight,
   FiMapPin,
@@ -44,24 +41,16 @@ export default function SiteHeader() {
 
   const topBarLeft = useMemo(
     () => [
-      { icon: FiPhone, label: "Call: +65 8221 6423", href: "tel:+6582216423" },
+      { icon: FiPhone, label: "WhatsApp: +60 17-755 8196", href: "https://wa.me/60177558196" },
       {
         icon: FiMapPin,
-        label: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia",
+        label: "26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia",
       },
       {
         icon: FiMail,
         label: "info@edusphereacademy.com.my",
         href: "mailto:info@edusphereacademy.com.my",
       },
-    ],
-    []
-  );
-
-  const socials = useMemo(
-    () => [
-      { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589531251092", icon: FaFacebookF },
-      { label: "YouTube", href: "https://www.youtube.com/@edusphereacademy", icon: SiYoutube },
     ],
     []
   );
@@ -86,20 +75,6 @@ export default function SiteHeader() {
                     <span className="font-medium text-slate-700">{item.label}</span>
                   )}
                 </div>
-              ))}
-            </div>
-            <div className="flex items-center gap-2">
-              {socials.map((s: { label: string; href: string; icon: IconType }) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="grid h-7 w-7 place-items-center rounded-full bg-white text-slate-700 shadow-sm ring-1 ring-black/5 hover:text-(--brand)"
-                  aria-label={s.label}
-                >
-                  <s.icon className="h-3.5 w-3.5" aria-hidden />
-                </a>
               ))}
             </div>
           </div>
@@ -151,9 +126,11 @@ export default function SiteHeader() {
 
             <div className="flex shrink-0 items-center gap-2 lg:hidden">
               <a
-                href="tel:+6582216423"
+                href="https://wa.me/60177558196"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="grid h-10 w-10 place-items-center rounded-2xl border border-(--border) bg-(--surface-2) text-(--brand-2) shadow-sm shadow-black/5"
-                aria-label="Call Edusphere Academy"
+                aria-label="WhatsApp Edusphere Academy"
               >
                 <FiPhone className="h-4.5 w-4.5" aria-hidden />
               </a>
@@ -208,14 +185,7 @@ export default function SiteHeader() {
 
               <div className="relative mt-3 flex items-center gap-2">
                 <a
-                  href="tel:+6582216423"
-                  className="grid h-10 w-10 place-items-center rounded-xl bg-white/12 ring-1 ring-white/15 transition hover:bg-white/20"
-                  aria-label="Call"
-                >
-                  <FiPhone className="h-4.5 w-4.5 text-(--brand)" aria-hidden />
-                </a>
-                <a
-                  href="https://wa.me/6582216423"
+                  href="https://wa.me/60177558196"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="grid h-10 w-10 place-items-center rounded-xl bg-white/12 ring-1 ring-white/15 transition hover:bg-white/20"
@@ -279,20 +249,6 @@ export default function SiteHeader() {
               >
                 Enquire Now
               </Link>
-              <div className="mt-3 flex items-center justify-center gap-1.5">
-                {socials.map((s: { label: string; href: string; icon: IconType }) => (
-                  <a
-                    key={s.label}
-                    href={s.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="grid h-8 w-8 place-items-center rounded-full bg-white text-slate-600 ring-1 ring-black/5"
-                    aria-label={s.label}
-                  >
-                    <s.icon className="h-3.5 w-3.5" aria-hidden />
-                  </a>
-                ))}
-              </div>
             </div>
           </div>
         </div>

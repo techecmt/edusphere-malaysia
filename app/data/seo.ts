@@ -2,36 +2,37 @@ export const SITE = {
   name: "Edusphere Academy",
   legalName: "Edusphere Academy Pte Ltd",
   url: "https://www.edusphereacademy.com.my",
-  phone: "+65 8221 6423",
-  phoneIntl: "+6582216423",
+  phone: "+60 17-755 8196",
+  phoneIntl: "+60177558196",
+  whatsappUrl: "https://wa.me/60177558196",
   email: "info@edusphereacademy.com.my",
   logo: "/logo.png",
   address: {
-    street: "45-02, Jalan Pendidikan 3, Taman Universiti",
-    locality: "Skudai",
+    street: "26 Jalan Camar 1, Taman Perling",
+    locality: "Johor Bahru",
     region: "Johor",
-    postalCode: "81300",
+    postalCode: "81200",
     country: "Malaysia",
     countryCode: "MY",
     formatted:
-      "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia",
+      "26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia",
   },
   geo: {
-    latitude: 1.534042,
-    longitude: 103.6253388,
+    latitude: 1.5115,
+    longitude: 103.693,
   },
   mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%203%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
+    "https://www.google.com/maps/search/?api=1&query=26%20Jalan%20Camar%201%2C%20Taman%20Perling%2C%2081200%20Johor%20Bahru%2C%20Johor%2C%20Malaysia",
   mapEmbedUrl:
-    "https://www.google.com/maps?q=45-02%2C%20Jalan%20Pendidikan%203%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia&output=embed",
+    "https://www.google.com/maps?q=26%20Jalan%20Camar%201%2C%20Taman%20Perling%2C%2081200%20Johor%20Bahru%2C%20Johor%2C%20Malaysia&output=embed",
   openingHours: {
     days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
     opens: "09:00",
     closes: "18:00",
   },
   socials: [
-    "https://www.facebook.com/profile.php?id=61589531251092",
-    "https://www.youtube.com/@edusphereacademy",
+    "#",
+    "#",
   ],
 };
 
@@ -54,14 +55,14 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "advanced-certificate-in-nursing-aide",
     metaTitle: "Nursing Aide Course in Malaysia (Advanced Certificate)",
     metaDescription:
-      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Taman Universiti, Skudai, Johor. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Nursing Aide at Edusphere Academy, Taman Perling, Johor Bahru, Johor. First aid & CPR/AED, wound care support and physiotherapy support skills. Weekend classes. Enquire now.",
     keywords: [
       "nursing aide course Malaysia",
       "healthcare assistant course Malaysia",
       "patient care assistant training Malaysia",
       "first aid CPR course Malaysia",
       "wound care course Malaysia",
-      "nursing aide certificate Skudai Johor",
+      "nursing aide certificate Johor Bahru Johor",
     ],
     courseName: "Advanced Certificate in Nursing Aide",
     courseDescription:
@@ -89,7 +90,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
       {
         q: "How long is the nursing aide course at Edusphere Academy?",
-        a: "It is a 36-hour part-time programme over 12 weeks, with weekend face-to-face classes at our Taman Universiti, Skudai, Johor campus.",
+        a: "It is a 36-hour part-time programme over 12 weeks, with weekend face-to-face classes at our Taman Perling, Johor Bahru campus.",
       },
       {
         q: "What certificate will I receive?",
@@ -97,7 +98,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
       {
         q: "Where is Edusphere Academy located?",
-        a: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia. The campus is open Monday to Sunday, 9am to 6pm.",
+        a: "26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia. The campus is open Monday to Sunday, 9am to 6pm.",
       },
     ],
   },
@@ -105,7 +106,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "advanced-certificate-in-professional-caregiving",
     metaTitle: "Caregiver Course in Malaysia — Elderly, Autism & Child Care",
     metaDescription:
-      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Taman Universiti, Skudai, Johor. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
+      "36-hour Advanced Certificate in Professional Caregiving at Edusphere Academy, Taman Perling, Johor Bahru, Johor. Hands-on elderly care, autism care and child care training. Weekend classes. Enquire now.",
     keywords: [
       "caregiver course Malaysia",
       "caregiver training Malaysia",
@@ -144,7 +145,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
       {
         q: "When are classes held?",
-        a: "Classes run on weekends in a part-time format at our Skudai, Johor campus, so you can study while working.",
+        a: "Classes run on weekends in a part-time format at our Johor Bahru, Johor campus, so you can study while working.",
       },
       {
         q: "What qualification do I get after completing the course?",
@@ -156,7 +157,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "hospital-healthcare-administration",
     metaTitle: "Healthcare Administration Course in Malaysia",
     metaDescription:
-      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Taman Universiti, Skudai, Johor. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
+      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Taman Perling, Johor Bahru, Johor. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
     keywords: [
       "healthcare administration course Malaysia",
       "hospital administration course Malaysia",
@@ -189,7 +190,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
       {
         q: "How long is the hospital administration certificate programme?",
-        a: "It is 36 contact hours delivered part-time over 12 weeks with weekend classes at Edusphere Academy, Skudai, Johor.",
+        a: "It is 36 contact hours delivered part-time over 12 weeks with weekend classes at Edusphere Academy, Johor Bahru, Johor.",
       },
       {
         q: "Is this course suitable for clinic front desk staff?",
@@ -205,7 +206,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     slug: "barista-arts",
     metaTitle: "Barista Course in Malaysia (Certificate in Barista Arts)",
     metaDescription:
-      "36-hour Certificate in Barista Arts at Edusphere Academy, Taman Universiti, Skudai, Johor. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
+      "36-hour Certificate in Barista Arts at Edusphere Academy, Taman Perling, Johor Bahru, Johor. Espresso extraction, milk texturing, latte art and café service, hands-on. Weekend classes. Enquire now.",
     keywords: [
       "barista course Malaysia",
       "barista training Malaysia",
@@ -238,11 +239,11 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
       {
         q: "Where is the barista course held?",
-        a: "At Edusphere Academy, 45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia, with weekend part-time sessions.",
+        a: "At Edusphere Academy, 26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia, with weekend part-time sessions.",
       },
       {
         q: "How do I enrol in the barista course?",
-        a: "Submit an enquiry on the course page or contact info@edusphereacademy.com.my or +65 8221 6423. Our team will advise intake and fees.",
+        a: "Submit an enquiry on the course page or contact info@edusphereacademy.com.my or +60 17-755 8196 via WhatsApp. Our team will advise intake and fees.",
       },
     ],
   },
@@ -324,7 +325,7 @@ export function courseJsonLd(seo: CourseSeo) {
       courseWorkload: "PT36H",
       location: {
         "@type": "Place",
-        name: `${SITE.name} — Taman Universiti, Skudai, Johor`,
+        name: `${SITE.name} — Taman Perling, Johor Bahru, Johor`,
         address: {
           "@type": "PostalAddress",
           streetAddress: SITE.address.street,

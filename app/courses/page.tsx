@@ -11,21 +11,21 @@ import { absoluteUrl, breadcrumbJsonLd, courseSeoBySlug } from "../data/seo";
 export const metadata: Metadata = {
   title: "Certificate Courses in Malaysia",
   description:
-    "Browse all Edusphere Academy certificate courses in Malaysia — nursing aide, professional caregiving (elderly, autism & child care), hospital & healthcare administration, and barista arts. Weekend classes in Taman Universiti, Skudai, Johor.",
+    "Browse all Edusphere Academy certificate courses in Malaysia — nursing aide, professional caregiving (elderly, autism & child care), hospital & healthcare administration, and barista arts. Weekend classes in Taman Perling, Johor Bahru, Johor.",
   keywords: [
     "certificate courses Malaysia",
     "skills training courses Malaysia",
     "healthcare courses Malaysia",
     "caregiver course Malaysia",
     "barista course Malaysia",
-    "part-time courses Skudai Johor",
+    "part-time courses Johor Bahru Johor",
   ],
   alternates: { canonical: "/courses" },
   openGraph: {
     url: "/courses",
     title: "Certificate Courses in Malaysia | Edusphere Academy",
     description:
-      "Nursing aide, caregiving, healthcare administration and barista arts courses — weekend classes in Skudai, Johor.",
+      "Nursing aide, caregiving, healthcare administration and barista arts courses — weekend classes in Johor Bahru, Johor.",
   },
 };
 
@@ -86,14 +86,14 @@ export default function CoursesPage() {
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
               Practical, part-time certificate courses in healthcare, caregiving,
               and barista arts — taught with hands-on training at our Taman
-              Universiti campus in Skudai, Johor. Weekend schedules designed for
+              Perling campus in Johor Bahru, Johor. Weekend schedules designed for
               working adults, employers upskilling care staff, and career
               switchers.
             </p>
 
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/80 px-4 py-2 text-xs font-semibold text-slate-700">
               <FiMapPin className="h-4 w-4 text-(--brand)" aria-hidden />
-              45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor,
+              26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor,
               Malaysia · Open Mon–Sun, 9am–6pm
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function CoursesPage() {
                         </span>
                         <span className="inline-flex items-center gap-1.5 rounded-full bg-(--surface-2) px-3 py-1">
                           <FiMapPin className="h-3.5 w-3.5 text-(--brand)" aria-hidden />
-                          Taman Universiti, Skudai
+                          Taman Perling, Johor Bahru
                         </span>
                       </div>
 

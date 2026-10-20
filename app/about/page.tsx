@@ -6,19 +6,19 @@ import { breadcrumbJsonLd } from "../data/seo";
 export const metadata: Metadata = {
   title: "About Us — Skills Training Institute in Malaysia",
   description:
-    "Learn about Edusphere Academy, a Malaysia-based skills training institute in Taman Universiti, Skudai, Johor delivering hands-on certificate programmes in healthcare, caregiving, hospitality, and more — with face-to-face and e-learning pathways.",
+    "Learn about Edusphere Academy, a Malaysia-based skills training institute in Taman Perling, Johor Bahru, Johor delivering hands-on certificate programmes in healthcare, caregiving, hospitality, and more — with face-to-face and e-learning pathways.",
   keywords: [
     "about Edusphere Academy",
     "skills training institute Malaysia",
     "vocational education Malaysia",
-    "training academy Skudai Johor",
+    "training academy Johor Bahru Johor",
   ],
   alternates: { canonical: "/about" },
   openGraph: {
     url: "/about",
     title: "About Edusphere Academy — Skills Training Institute in Malaysia",
     description:
-      "Malaysia-based skills training institute delivering hands-on, industry-relevant certificate programmes in Skudai, Johor.",
+      "Malaysia-based skills training institute delivering hands-on, industry-relevant certificate programmes in Johor Bahru, Johor.",
   },
 };
 

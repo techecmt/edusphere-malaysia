@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | Edusphere Academy",
   },
   description:
-    "Edusphere Academy is a skills training academy in Taman Universiti, Skudai, Johor offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
+    "Edusphere Academy is a skills training academy in Taman Perling, Johor Bahru, Johor offering hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
   keywords: [
     "skills training academy Malaysia",
     "healthcare courses Malaysia",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "nursing aide course Malaysia",
     "healthcare administration course Malaysia",
     "barista course Malaysia",
-    "certificate courses Skudai Johor",
+    "certificate courses Johor Bahru Johor",
   ],
   applicationName: SITE.name,
   category: "education",
@@ -47,13 +47,13 @@ export const metadata: Metadata = {
     url: "/",
     title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Skudai, Johor.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Johor Bahru, Johor.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Edusphere Academy | Skills Training Academy in Malaysia",
     description:
-      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Skudai, Johor.",
+      "Hands-on certificate courses in nursing aide, caregiving, healthcare administration, and barista arts in Johor Bahru, Johor.",
   },
   robots: {
     index: true,

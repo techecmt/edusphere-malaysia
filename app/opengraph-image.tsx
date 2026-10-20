@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Edusphere Academy — Skills Training Academy in Skudai, Johor";
+  "Edusphere Academy — Skills Training Academy in Johor Bahru, Johor";
 export const size = {
   width: 1200,
   height: 630,
@@ -69,7 +69,7 @@ export default function Image() {
             fontWeight: 700,
           }}
         >
-          45-02, Jalan Pendidikan 3 · Taman Universiti, Skudai, Johor
+          26 Jalan Camar 1 · Taman Perling, 81200 Johor Bahru, Johor
         </div>
       </div>
     ),

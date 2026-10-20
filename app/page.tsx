@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     absolute: "Edusphere Academy Malaysia | Healthcare, Caregiving & Barista Courses",
   },
   description:
-    "Skills training academy in Taman Universiti, Skudai, Johor. Hands-on certificate courses in nursing aide, caregiving (elderly, autism & child care), healthcare administration and barista arts. Open 7 days.",
+    "Skills training academy in Taman Perling, Johor Bahru, Johor. Hands-on certificate courses in nursing aide, caregiving (elderly, autism & child care), healthcare administration and barista arts. Open 7 days.",
   alternates: {
     canonical: "/",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "/",
     title: "Edusphere Academy Malaysia | Healthcare, Caregiving & Barista Courses",
     description:
-      "Hands-on certificate courses in Skudai, Johor — nursing aide, caregiving, healthcare administration and barista arts. Open 7 days.",
+      "Hands-on certificate courses in Johor Bahru, Johor — nursing aide, caregiving, healthcare administration and barista arts. Open 7 days.",
   },
 };
 

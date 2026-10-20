@@ -75,9 +75,9 @@ export default function SiteFooter({ className }: FooterProps) {
               {[
                 {
                   icon: FiPhone,
-                  title: "Call us",
-                  text: "+65 8221 6423",
-                  href: "tel:+6582216423",
+                  title: "WhatsApp us",
+                  text: "+60 17-755 8196",
+                  href: "https://wa.me/60177558196",
                 },
                 {
                   icon: FiMail,
@@ -88,8 +88,8 @@ export default function SiteFooter({ className }: FooterProps) {
                 {
                   icon: FiMapPin,
                   title: "Visit us",
-                  text: "45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia",
-                  href: "https://www.google.com/maps/search/?api=1&query=45-02%2C%20Jalan%20Pendidikan%203%2C%20Taman%20Universiti%2C%2081300%20Skudai%2C%20Johor%2C%20Malaysia",
+                  text: "26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia",
+                  href: "https://www.google.com/maps/search/?api=1&query=26%20Jalan%20Camar%201%2C%20Taman%20Perling%2C%2081200%20Johor%20Bahru%2C%20Johor%2C%20Malaysia",
                 },
               ].map((item) => (
                 <a

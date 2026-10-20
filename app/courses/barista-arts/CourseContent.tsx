@@ -244,8 +244,8 @@ export default function BaristaArtsContent() {
                 A hands-on barista course in Malaysia — master espresso
                 extraction, milk texturing, latte art, and café service, ready for
                 cafés, coffee chains, hotels, and specialty coffee establishments
-                in Malaysia and beyond. Weekend classes at our Taman Universiti
-                campus in Skudai, Johor.
+                in Malaysia and beyond. Weekend classes at our Taman Perling
+                campus in Johor Bahru, Johor.
               </motion.p>
 
               <motion.div
@@ -866,7 +866,7 @@ export default function BaristaArtsContent() {
                     { icon: FiCalendar, k: "Schedule", v: "Weekend · 12 Sundays · 3 hrs/class" },
                     { icon: FiClock, k: "Duration", v: "12 weeks · 36 contact hours" },
                     { icon: FiCoffee, k: "Mode", v: "E-learning / Face-to-Face" },
-                    { icon: FiMapPin, k: "Campus", v: "45-02, Jalan Pendidikan 3 · Taman Universiti, Skudai" },
+                    { icon: FiMapPin, k: "Campus", v: "26 Jalan Camar 1 · Taman Perling, Johor Bahru" },
                   ].map((x) => (
                     <div
                       key={x.k}
