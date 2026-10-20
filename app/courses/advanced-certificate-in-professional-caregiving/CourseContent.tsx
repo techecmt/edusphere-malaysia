@@ -161,8 +161,8 @@ const entryRequirements: string[] = [
 ];
 
 const fees: { label: string; value: string }[] = [
-  { label: "Registration Fee (Non-Refundable)", value: "S$100.00" },
-  { label: "Course Fee", value: "S$1,100.00" },
+  { label: "Monthly Fee (3 months)", value: "RM 500.00" },
+  { label: "Total Course Fee", value: "RM 1,500.00" },
 ];
 
 const refundPolicy: { percent: string; tag: string; condition: string }[] = [
@@ -769,16 +769,16 @@ export default function ProfessionalCaregivingContent() {
                 </div>
                 <BlurText
                   as="h2"
-                  text="Transparent fees with a special discount"
+                  text="Transparent, affordable course fees"
                   delay={110}
                   animateBy="words"
                   direction="top"
                   className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl"
                 />
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
-                  A part-time programme covering registration and tuition for all
-                  three modules — now with a special discount of S$600. The
-                  registration fee is non-refundable and non-transferable.
+                  A part-time programme covering all three modules at
+                  RM 500 per month for 3 months — RM 1,500 total with no
+                  hidden fees.
                 </p>
                 <a
                   href="#enquire"
@@ -798,7 +798,7 @@ export default function ProfessionalCaregivingContent() {
               >
                 <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
                   <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Malaysia Dollars
+                    Part-time · Malaysian Ringgit
                   </div>
                   <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
                 </div>
@@ -816,21 +816,12 @@ export default function ProfessionalCaregivingContent() {
                       </span>
                     </div>
                   ))}
-                  <div className="flex items-center justify-between gap-4 bg-emerald-50 px-6 py-4">
-                    <span className="inline-flex items-center gap-2 text-sm font-bold text-emerald-700">
-                      <FiTrendingUp className="h-4 w-4" aria-hidden />
-                      Special Discount
-                    </span>
-                    <span className="text-base font-extrabold text-emerald-600">
-                      − S$600.00
-                    </span>
-                  </div>
                   <div className="flex items-center justify-between gap-4 bg-(--surface-2) px-6 py-5">
                     <span className="text-sm font-extrabold uppercase tracking-wide text-(--brand-2)">
                       Total Fees Payable
                     </span>
                     <span className="text-2xl font-extrabold text-(--brand)">
-                      S$600.00
+                      RM 1,500.00
                     </span>
                   </div>
                 </div>
@@ -857,8 +848,7 @@ export default function ProfessionalCaregivingContent() {
               <p className="mt-4 text-base leading-relaxed text-slate-600">
                 Students who wish to withdraw or transfer to another programme
                 must notify Edusphere Academy in writing before the commencement of
-                the course. The application fee paid is non-refundable and
-                non-transferable.
+                the course.
               </p>
             </div>
 

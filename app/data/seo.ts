@@ -68,7 +68,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time programme in Malaysia combining classroom learning with hands-on practical training in first aid & CPR/AED, wound care support, and physiotherapy support skills — preparing students for healthcare support roles in hospitals, nursing homes, rehabilitation centres, and home care settings.",
     credentialAwarded: "Advanced Certificate in Nursing Aide",
-    priceMYR: 600,
+    priceMYR: 1500,
     teaches: [
       "First aid and emergency response",
       "CPR and AED skills",
@@ -120,7 +120,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time caregiving programme in Malaysia covering three high-demand specialisations — elderly care, autism care, and child care — with hands-on, person-centred training for home, community, and institutional care settings.",
     credentialAwarded: "Advanced Certificate in Professional Caregiving",
-    priceMYR: 600,
+    priceMYR: 1500,
     teaches: [
       "Elderly caregiving",
       "Autism care support",
@@ -169,7 +169,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour, industry-focused programme in Malaysia building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.",
     credentialAwarded: "Advanced Certificate in Hospital & Healthcare Administration",
-    priceMYR: 1200,
+    priceMYR: 1500,
     teaches: [
       "Healthcare operations",
       "Patient administration",
@@ -219,7 +219,7 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
     courseDescription:
       "A 36-hour part-time barista training programme in Malaysia covering espresso extraction, milk texturing, latte art, and café service — preparing students for barista and café roles in coffee chains, hotels, and specialty coffee establishments.",
     credentialAwarded: "Certificate in Barista Arts",
-    priceMYR: 600,
+    priceMYR: 1500,
     teaches: [
       "Espresso extraction",
       "Milk texturing",
