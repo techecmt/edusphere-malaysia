@@ -28,6 +28,14 @@ const websiteJsonLd = {
   url: SITE.url,
   publisher: { "@id": `${SITE.url}/#organization` },
   inLanguage: "en-MY",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${SITE.url}/courses?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 export default function Home() {

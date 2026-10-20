@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import AboutContent from "./AboutContent";
 import JsonLd from "../_components/JsonLd";
-import { breadcrumbJsonLd } from "../data/seo";
+import { breadcrumbJsonLd, webPageJsonLd } from "../data/seo";
 
 export const metadata: Metadata = {
   title: "About Us — Skills Training Institute in Malaysia",
@@ -26,10 +26,18 @@ export default function Page() {
   return (
     <>
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "About Us", path: "/about" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "About Us", path: "/about" },
+          ]),
+          webPageJsonLd(
+            "About Edusphere Academy",
+            "Learn about Edusphere Academy, a Malaysia-based skills training institute in Taman Perling, Johor Bahru, Johor.",
+            "/about",
+            "AboutPage",
+          ),
+        ]}
       />
       <AboutContent />
     </>

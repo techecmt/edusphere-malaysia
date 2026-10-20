@@ -133,7 +133,6 @@ export default function Page() {
           articleJsonLd(post),
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
-            { name: "Blog", path: `/blog/${post.slug}` },
             { name: "How to Become a Barista in Malaysia", path: `/blog/${post.slug}` },
           ]),
           faqJsonLd(faqs),

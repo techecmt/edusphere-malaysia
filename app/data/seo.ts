@@ -30,10 +30,7 @@ export const SITE = {
     opens: "09:00",
     closes: "18:00",
   },
-  socials: [
-    "#",
-    "#",
-  ],
+  socials: [] as string[],
 };
 
 export type CourseSeo = {
@@ -286,6 +283,15 @@ export function organizationJsonLd() {
       "@type": "Country",
       name: "Malaysia",
     },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: SITE.phoneIntl,
+        contactType: "customer service",
+        availableLanguage: ["English", "Malay"],
+        areaServed: "MY",
+      },
+    ],
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -294,7 +300,7 @@ export function organizationJsonLd() {
         closes: SITE.openingHours.closes,
       },
     ],
-    sameAs: SITE.socials,
+    ...(SITE.socials.length > 0 ? { sameAs: SITE.socials } : {}),
   };
 }
 
@@ -309,8 +315,13 @@ export function courseJsonLd(seo: CourseSeo) {
     provider: { "@id": organizationId },
     educationalCredentialAwarded: seo.credentialAwarded,
     teaches: seo.teaches,
+    inLanguage: "en",
     availableLanguage: "en",
     timeRequired: "PT36H",
+    numberOfCredits: 36,
+    occupationalCredentialAwarded: seo.credentialAwarded,
+    occupationalCategory: seo.occupations,
+    coursePrerequisites: "Minimum age 16. No prior experience required.",
     offers: {
       "@type": "Offer",
       category: "Paid",
@@ -323,6 +334,13 @@ export function courseJsonLd(seo: CourseSeo) {
       "@type": "CourseInstance",
       courseMode: ["Onsite", "Online"],
       courseWorkload: "PT36H",
+      courseSchedule: {
+        "@type": "Schedule",
+        repeatFrequency: "P1W",
+        byDay: "https://schema.org/Sunday",
+        duration: "PT3H",
+        repeatCount: 12,
+      },
       location: {
         "@type": "Place",
         name: `${SITE.name} — Taman Perling, Johor Bahru, Johor`,
@@ -336,6 +354,25 @@ export function courseJsonLd(seo: CourseSeo) {
         },
       },
     },
+  };
+}
+
+export function webPageJsonLd(
+  name: string,
+  description: string,
+  path: string,
+  type: string = "WebPage",
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    "@id": `${absoluteUrl(path)}#webpage`,
+    name,
+    description,
+    url: absoluteUrl(path),
+    isPartOf: { "@id": `${SITE.url}/#website` },
+    about: { "@id": organizationId },
+    inLanguage: "en-MY",
   };
 }
 

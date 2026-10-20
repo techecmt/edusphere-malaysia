@@ -1,0 +1,17 @@
+{
+  "name": "Edusphere Academy",
+  "short_name": "Edusphere",
+  "description": "Skills training academy in Johor Bahru, Malaysia. Certificate courses in nursing aide, caregiving, healthcare administration, and barista arts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2A003F",
+  "icons": [
+    {
+      "src": "/fav.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

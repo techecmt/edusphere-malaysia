@@ -3,7 +3,7 @@ import SiteFooter from "../_components/SiteFooter";
 import SiteHeader from "../_components/SiteHeader";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
 import JsonLd from "../_components/JsonLd";
-import { breadcrumbJsonLd } from "../data/seo";
+import { breadcrumbJsonLd, webPageJsonLd } from "../data/seo";
 
 export const metadata: Metadata = {
   title: "Student Affairs & Learner Support",
@@ -22,10 +22,17 @@ export default function StudentAffairsPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
       <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Student Affairs", path: "/student-affairs" },
-        ])}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Student Affairs", path: "/student-affairs" },
+          ]),
+          webPageJsonLd(
+            "Student Affairs & Learner Support",
+            "Course counselling, enrolment support, academic guidance, and learner wellbeing services at Edusphere Academy Malaysia.",
+            "/student-affairs",
+          ),
+        ]}
       />
       <SiteHeader />
 

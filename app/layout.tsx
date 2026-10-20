@@ -40,6 +40,18 @@ export const metadata: Metadata = {
   ],
   applicationName: SITE.name,
   category: "education",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/fav.png", type: "image/png" },
+    ],
+    apple: [{ url: "/fav.png" }],
+  },
+  manifest: "/manifest.webmanifest",
+  other: {
+    "theme-color": "#2A003F",
+    "msapplication-TileColor": "#2A003F",
+  },
   openGraph: {
     type: "website",
     locale: "en_MY",
@@ -63,6 +75,7 @@ export const metadata: Metadata = {
       follow: true,
       "max-image-preview": "large",
       "max-snippet": -1,
+      "max-video-preview": -1,
     },
   },
 };
@@ -78,6 +91,13 @@ export default function RootLayout({
       className={`${poppins.variable} ${geistMono.variable} h-full antialiased`}
     >
       <GoogleTagManager gtmId="GTM-N369GGSW" />
+      <head>
+        <link rel="author" href="https://www.edusphereacademy.com.my" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      </head>
       <body className="min-h-full flex flex-col">
         {/* Google Tag Manager (noscript) */}
         <noscript>

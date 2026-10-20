@@ -8,6 +8,7 @@ import BlurText from "../../_components/BlurText";
 import SiteFooter from "../../_components/SiteFooter";
 import SiteHeader from "../../_components/SiteHeader";
 import ContactForm from "../../_components/contactform";
+import RelatedCourses from "../../_components/RelatedCourses";
 import type { IconType } from "react-icons";
 import {
   FiActivity,
@@ -161,6 +162,7 @@ const entryRequirements: string[] = [
 ];
 
 const fees: { label: string; value: string }[] = [
+  { label: "Registration Fee (Non-Refundable)", value: "RM 100.00" },
   { label: "Monthly Fee (3 months)", value: "RM 500.00" },
   { label: "Total Course Fee", value: "RM 1,500.00" },
 ];
@@ -961,6 +963,8 @@ export default function ProfessionalCaregivingContent() {
             </div>
           </div>
         </section>
+
+        <RelatedCourses currentCourseId={COURSE_ID} />
 
         {/* ──────────────── Enquiry ──────────────── */}
         <section id="enquire" className="bg-(--surface-2) py-14 sm:py-20">

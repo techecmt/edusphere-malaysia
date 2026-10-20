@@ -1,14 +1,45 @@
 # Edusphere Academy (Malaysia)
 
-> Skills training academy in Taman Universiti, Skudai, Johor, Malaysia. Hands-on certificate courses in nursing aide, professional caregiving, hospital & healthcare administration, and barista arts.
+> Skills training academy in Taman Perling, Johor Bahru, Johor, Malaysia. Hands-on certificate courses in nursing aide, professional caregiving, hospital & healthcare administration, and barista arts.
 
 ## Contact
 
 - Website: https://www.edusphereacademy.com.my
 - Email: info@edusphereacademy.com.my
-- Phone: +65 8221 6423
-- Address: 45-02, Jalan Pendidikan 3, Taman Universiti, 81300 Skudai, Johor, Malaysia
+- Phone: +60 17-755 8196
+- WhatsApp: https://wa.me/60177558196
+- Address: 26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia
 - Hours: Monday–Sunday, 9:00am–6:00pm
+
+## Courses offered
+
+### Advanced Certificate in Nursing Aide
+- Duration: 36 hours (12 weeks, weekend classes)
+- Fee: MYR 1,500 total (MYR 500/month x 3 months)
+- Modules: First Aid + CPR/AED, Wound Care Support, Physiotherapy Support Skills
+- Career paths: Nursing Aide, Healthcare Assistant, Patient Care Assistant, Home Care Aide
+- URL: https://www.edusphereacademy.com.my/courses/advanced-certificate-in-nursing-aide
+
+### Advanced Certificate in Professional Caregiving (Elderly, Autism & Child Care)
+- Duration: 36 hours (12 weeks, weekend classes)
+- Fee: MYR 1,500 total (MYR 500/month x 3 months)
+- Modules: Elderly Care, Autism Care, Child Care
+- Career paths: Professional Caregiver, Elderly Care Assistant, Special Needs Support Aide, Childcare Support Assistant
+- URL: https://www.edusphereacademy.com.my/courses/advanced-certificate-in-professional-caregiving
+
+### Advanced Certificate in Hospital & Healthcare Administration
+- Duration: 36 hours (12 weeks, weekend classes)
+- Fee: MYR 1,500 total (MYR 500/month x 3 months)
+- Modules: Healthcare Operations, Patient Administration, Medical Records & IT Systems
+- Career paths: Hospital Administrative Assistant, Patient Service Coordinator, Clinic Front Office Executive
+- URL: https://www.edusphereacademy.com.my/courses/hospital-healthcare-administration
+
+### Certificate in Barista Arts
+- Duration: 36 hours (12 weeks, weekend classes)
+- Fee: MYR 1,500 total (MYR 500/month x 3 months)
+- Modules: Espresso Extraction, Milk Texturing & Latte Art, Cafe Service & Workflow
+- Career paths: Barista, Cafe Service Crew, Coffee Specialist
+- URL: https://www.edusphereacademy.com.my/courses/barista-arts
 
 ## Key pages
 
@@ -16,10 +47,6 @@
 - All courses: https://www.edusphereacademy.com.my/courses
 - About: https://www.edusphereacademy.com.my/about
 - Student affairs: https://www.edusphereacademy.com.my/student-affairs
-- Nursing aide course: https://www.edusphereacademy.com.my/courses/advanced-certificate-in-nursing-aide
-- Caregiver course: https://www.edusphereacademy.com.my/courses/advanced-certificate-in-professional-caregiving
-- Healthcare administration course: https://www.edusphereacademy.com.my/courses/hospital-healthcare-administration
-- Barista course: https://www.edusphereacademy.com.my/courses/barista-arts
 - Blog — How to become a barista in Malaysia: https://www.edusphereacademy.com.my/blog/how-to-become-a-barista-in-malaysia
 
 ## Sitemap
