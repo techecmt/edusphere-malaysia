@@ -3,12 +3,13 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaWhatsapp } from "react-icons/fa";
 import BlurText from "./_components/BlurText";
 import SiteFooter from "./_components/SiteFooter";
 import SiteHeader from "./_components/SiteHeader";
 import ContactForm from "./_components/contactform";
 import { featuredCourses } from "./data/coursedata";
+import { SITE } from "./data/seo";
 import type { IconType } from "react-icons";
 import {
   FiArrowRight,
@@ -138,118 +139,120 @@ export default function HomeContent() {
 
       <main id="main" className="flex-1">
         {/* Hero */}
-        <section className="relative overflow-hidden bg-linear-to-b from-(--surface-2) via-white to-white">
-          <div className="absolute inset-0">
-            <div className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-(--brand)/15 blur-3xl" />
-            <div className="absolute -right-24 top-24 h-72 w-72 rounded-full bg-(--brand-2)/15 blur-3xl" />
+        <section className="relative isolate flex min-h-[86svh] items-center overflow-hidden bg-slate-950 text-white">
+          <div className="absolute inset-0 overflow-hidden">
+            <iframe
+              title="Edusphere Academy Malaysia campus and training highlights"
+              src="https://www.youtube-nocookie.com/embed/i9fzqDw57yE?autoplay=1&mute=1&loop=1&playlist=i9fzqDw57yE&controls=0&modestbranding=1&rel=0&playsinline=1&disablekb=1&fs=0&iv_load_policy=3"
+              allow="autoplay; encrypted-media"
+              referrerPolicy="strict-origin-when-cross-origin"
+              tabIndex={-1}
+              aria-hidden
+              className="pointer-events-none absolute left-1/2 top-1/2 h-[56.25vw] min-h-[100vh] w-screen min-w-[177.78vh] -translate-x-1/2 -translate-y-1/2 border-0"
+            />
           </div>
 
-          <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-12 sm:pb-20 sm:pt-16 lg:pb-28">
-            <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-              <div>
-                <div className="inline-flex items-center gap-2 rounded-full border border-(--border) bg-white/70 px-4 py-2 text-xs font-semibold text-slate-700">
-                  <span className="inline-block h-2 w-2 rounded-full bg-(--brand)" />
-                  Skills Training Academy · Johor Bahru, Johor
-                </div>
+          <div className="absolute inset-0 bg-slate-950/20" />
+          <div className="absolute inset-0 bg-linear-to-r from-slate-950/85 via-slate-950/40 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-slate-950/65 via-transparent to-slate-950/25" />
 
-                <motion.h1
-                  initial={{ filter: "blur(12px)", opacity: 0, y: -24 }}
-                  animate={{ filter: "blur(0px)", opacity: 1, y: 0 }}
-                  transition={{ duration: 0.75, ease: "easeOut", delay: 0.1 }}
-                  className="mt-5 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-[56px] lg:leading-[1.05]"
-                >
-                  Build Career-Ready Skills{" "}
-                  <span className="text-(--brand)">in Malaysia</span> — with
-                  hands-on, instructor-led courses.
-                </motion.h1>
-                <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
-                Practical, job-focused certificate courses in nursing aide, caregiving, healthcare administration, and barista arts — taught at our Taman Perling campus in Johor Bahru, Johor, with flexible e-learning options.
-                </p>
-
-                <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
-                  <a
-                    href="#courses"
-                    className="inline-flex items-center justify-center rounded-xl bg-(--brand) px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-[#DDA15E]/25 hover:brightness-110"
-                  >
-                    Explore Courses
-                  </a>
-                  <a
-                    href="#visit"
-                    className="inline-flex items-center justify-center gap-3 rounded-xl border border-(--border) bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
-                  >
-                    <span className="grid h-8 w-8 place-items-center rounded-full bg-(--surface-2) text-(--brand)">
-                      <FiMapPin className="h-4 w-4" aria-hidden />
-                    </span>
-                    Visit our campus
-                  </a>
-                </div>
-
-                <div className="mt-8 grid grid-cols-2 gap-4 sm:flex sm:flex-wrap sm:items-center sm:gap-6">
-                  {[
-                    { k: "4", v: "Certificate Courses" },
-                    { k: "36h", v: "Hands-On Training" },
-                    { k: "1:20", v: "Class Ratio" },
-                    { k: "7 Days", v: "Open Mon–Sun" },
-                  ].map((s) => (
-                    <div
-                      key={s.v}
-                      className="rounded-2xl border border-(--border) bg-white/70 px-4 py-3"
-                    >
-                      <div className="text-lg font-extrabold text-slate-900">
-                        {s.k}
-                      </div>
-                      <div className="text-xs font-semibold text-slate-600">
-                        {s.v}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+          <div className="relative mx-auto w-full max-w-7xl px-4 py-20 sm:py-24 lg:py-28">
+            <div className="max-w-2xl">
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold text-white/90 backdrop-blur">
+                <span className="inline-block h-2 w-2 rounded-full bg-(--brand)" />
+                Skills Training Academy · Johor Bahru, Johor
               </div>
 
-              <div className="relative">
-                <div className="absolute -inset-6 -z-10 rounded-[32px] bg-linear-to-br from-(--brand)/15 via-transparent to-(--brand-2)/15 blur-2xl" />
+              <motion.h1
+                initial={{ filter: "blur(12px)", opacity: 0, y: -24 }}
+                animate={{ filter: "blur(0px)", opacity: 1, y: 0 }}
+                transition={{ duration: 0.75, ease: "easeOut", delay: 0.1 }}
+                className="mt-6 text-balance text-4xl font-bold tracking-tight text-white [text-shadow:0_2px_24px_rgba(2,6,23,0.65)] sm:text-5xl lg:text-6xl lg:leading-[1.05]"
+              >
+                Build career-ready skills{" "}
+                <span className="text-(--brand)">in Malaysia</span>
+              </motion.h1>
 
-                <div className="relative overflow-hidden rounded-[32px] border border-(--border) bg-white shadow-[0_22px_80px_-55px_rgba(2,6,23,0.55)]">
-                  <div className="absolute left-6 top-6 rounded-2xl bg-white/90 px-4 py-3 shadow-sm ring-1 ring-black/5 backdrop-blur">
-                    <div className="text-xs font-semibold text-slate-600">
-                      Campus
-                    </div>
-                    <div className="mt-0.5 text-lg font-extrabold text-slate-900">
-                      Johor Bahru, Johor
-                    </div>
-                  </div>
+              <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 [text-shadow:0_1px_12px_rgba(2,6,23,0.6)] sm:text-lg">
+                Hands-on, instructor-led certificate courses in nursing aide,
+                caregiving, healthcare administration and barista arts — at our
+                Taman Perling campus in Johor Bahru, with flexible e-learning
+                options.
+              </p>
 
-                  <Image
-                    alt="Student learning online with headphones at Edusphere Academy Malaysia"
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80"
-                    width={1400}
-                    height={880}
-                    className="h-[360px] w-full object-cover sm:h-[440px]"
-                    priority
-                  />
+              <ul className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-white/85 [text-shadow:0_1px_12px_rgba(2,6,23,0.6)]">
+                {[
+                  "Weekly live sessions",
+                  "Hands-on practical training",
+                  "Recognised certificates",
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-2">
+                    <FiCheck className="h-4 w-4 text-(--brand)" aria-hidden />
+                    {item}
+                  </li>
+                ))}
+              </ul>
 
-                  <div className="grid gap-3 border-t border-(--border) bg-(--surface-2) p-5 sm:grid-cols-3">
-                    {[
-                      { label: "Live sessions", value: "Weekly" },
-                      { label: "Practical Training", value: "Hands-On" },
-                      { label: "Certificates", value: "Recognised" },
-                    ].map((x) => (
-                      <div key={x.label} className="rounded-2xl bg-white p-4">
-                        <div className="text-xs font-semibold text-slate-500">
-                          {x.label}
-                        </div>
-                        <div className="mt-1 text-sm font-bold text-slate-900">
-                          {x.value}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+              <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+                <a
+                  href="#courses"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-(--brand) px-7 py-3.5 text-sm font-semibold text-slate-950 shadow-lg shadow-black/30 transition hover:brightness-110"
+                >
+                  Explore Courses
+                  <FiArrowRight className="h-4 w-4" aria-hidden />
+                </a>
+                <a
+                  href={SITE.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20"
+                >
+                  <FaWhatsapp className="h-5 w-5" aria-hidden />
+                  WhatsApp {SITE.phone}
+                </a>
+                <a
+                  href="#visit"
+                  className="inline-flex items-center justify-center gap-2 px-2 py-3.5 text-sm font-semibold text-white/75 underline-offset-4 transition hover:text-white hover:underline"
+                >
+                  <FiMapPin className="h-4 w-4" aria-hidden />
+                  Visit our campus
+                </a>
               </div>
             </div>
 
-            {/* Feature bar */}
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4">
+            <div className="mt-14 border-t border-white/15 pt-8 lg:mt-20">
+              <div className="grid grid-cols-2 gap-y-8 sm:grid-cols-4">
+                {[
+                  { k: "4", v: "Certificate Courses" },
+                  { k: "36h", v: "Hands-On Training" },
+                  { k: "1:20", v: "Class Ratio" },
+                  { k: "7 Days", v: "Open Mon–Sun" },
+                ].map((s, i) => (
+                  <div
+                    key={s.v}
+                    className={
+                      i === 0
+                        ? "sm:pr-6"
+                        : "border-l border-white/15 pl-5 sm:pl-6 sm:pr-6"
+                    }
+                  >
+                    <div className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+                      {s.k}
+                    </div>
+                    <div className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/70">
+                      {s.v}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Feature bar */}
+        <section className="border-b border-(--border) bg-(--surface-2) py-14 sm:py-16">
+          <div className="mx-auto max-w-7xl px-4">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 {
                   title: "Healthcare-Focused Programmes",
@@ -294,7 +297,6 @@ export default function HomeContent() {
             </div>
           </div>
         </section>
-
 
         {/* Courses */}
         <section id="courses" className="py-16 sm:py-20">
