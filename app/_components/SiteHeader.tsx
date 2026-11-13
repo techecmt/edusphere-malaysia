@@ -19,6 +19,31 @@ const navItems = [
   { label: "Contact", href: "/#contact" },
 ] as const;
 
+const REGISTER_URL = "https://form.jotform.com/262932743826465";
+
+function RegisterNowButton({
+  className = "",
+  onClick,
+}: {
+  className?: string;
+  onClick?: () => void;
+}) {
+  return (
+    <a
+      href={REGISTER_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={onClick}
+      className={[
+        "inline-flex items-center justify-center rounded-2xl bg-(--brand) font-extrabold text-(--brand-2) shadow-lg shadow-[#DDA15E]/35 transition hover:brightness-105 active:scale-[0.98]",
+        className,
+      ].join(" ")}
+    >
+      Register Now
+    </a>
+  );
+}
+
 export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -124,25 +149,28 @@ export default function SiteHeader() {
               </div>
             </nav>
 
-            <div className="flex shrink-0 items-center gap-2 lg:hidden">
-              <a
-                href="https://wa.me/60177558196"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="grid h-10 w-10 place-items-center rounded-2xl border border-(--border) bg-(--surface-2) text-(--brand-2) shadow-sm shadow-black/5"
-                aria-label="WhatsApp Edusphere Academy"
-              >
-                <FiPhone className="h-4.5 w-4.5" aria-hidden />
-              </a>
-              <button
-                type="button"
-                className="inline-flex h-11 items-center gap-2 rounded-2xl bg-(--brand-2) px-4 text-sm font-extrabold text-white shadow-lg shadow-[#32004F]/20 active:scale-[0.98]"
-                onClick={() => setMenuOpen(true)}
-                aria-label="Open menu"
-              >
-                Menu
-                <FiMenu className="h-5 w-5" aria-hidden />
-              </button>
+            <div className="flex shrink-0 items-center gap-2">
+              <RegisterNowButton className="h-10 px-3 text-xs sm:h-11 sm:px-5 sm:text-sm" />
+              <div className="flex items-center gap-2 lg:hidden">
+                <a
+                  href="https://wa.me/60177558196"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hidden h-10 w-10 place-items-center rounded-2xl border border-(--border) bg-(--surface-2) text-(--brand-2) shadow-sm shadow-black/5 min-[420px]:grid"
+                  aria-label="WhatsApp Edusphere Academy"
+                >
+                  <FiPhone className="h-4.5 w-4.5" aria-hidden />
+                </a>
+                <button
+                  type="button"
+                  className="inline-flex h-10 items-center gap-2 rounded-2xl bg-(--brand-2) px-3 text-sm font-extrabold text-white shadow-lg shadow-[#32004F]/20 active:scale-[0.98] sm:h-11 sm:px-4"
+                  onClick={() => setMenuOpen(true)}
+                  aria-label="Open menu"
+                >
+                  <span className="hidden sm:inline">Menu</span>
+                  <FiMenu className="h-5 w-5" aria-hidden />
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -242,13 +270,10 @@ export default function SiteHeader() {
             </nav>
 
             <div className="border-t border-(--border) bg-(--surface-2) px-3 py-3">
-              <Link
-                href="/#contact"
+              <RegisterNowButton
                 onClick={() => setMenuOpen(false)}
-                className="flex items-center justify-center rounded-xl bg-(--brand) px-5 py-2.5 text-sm font-extrabold text-(--brand-2) shadow-md shadow-[#DDA15E]/20"
-              >
-                Enquire Now
-              </Link>
+                className="w-full rounded-xl px-5 py-2.5 text-sm"
+              />
             </div>
           </div>
         </div>
