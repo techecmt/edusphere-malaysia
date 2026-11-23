@@ -5,6 +5,9 @@ export const SITE = {
   phone: "+60 17-755 8196",
   phoneIntl: "+60177558196",
   whatsappUrl: "https://wa.me/60177558196",
+  phoneAlt: "+60 11-2509 0107",
+  phoneAltIntl: "+601125090107",
+  phoneAltTel: "tel:+601125090107",
   email: "info@edusphereacademy.com.my",
   logo: "/logo.png",
   address: {
@@ -32,6 +35,21 @@ export const SITE = {
   },
   socials: [] as string[],
 };
+
+export const SITE_CONTACT_LINES = [
+  {
+    headerLabel: `WhatsApp: ${SITE.phone}`,
+    footerTitle: "WhatsApp us",
+    display: SITE.phone,
+    href: SITE.whatsappUrl,
+  },
+  {
+    headerLabel: `Phone: ${SITE.phoneAlt}`,
+    footerTitle: "Call us",
+    display: SITE.phoneAlt,
+    href: SITE.phoneAltTel,
+  },
+] as const;
 
 export type CourseSeo = {
   slug: string;

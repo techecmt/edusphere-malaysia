@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight, FiArrowUp, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { SITE, SITE_CONTACT_LINES } from "../data/seo";
 
 type FooterProps = {
   className?: string;
@@ -69,23 +70,23 @@ export default function SiteFooter({ className }: FooterProps) {
 
             <div className="mt-7 space-y-5">
               {[
-                {
+                ...SITE_CONTACT_LINES.map((line) => ({
                   icon: FiPhone,
-                  title: "WhatsApp us",
-                  text: "+60 17-755 8196",
-                  href: "https://wa.me/60177558196",
-                },
+                  title: line.footerTitle,
+                  text: line.display,
+                  href: line.href,
+                })),
                 {
                   icon: FiMail,
                   title: "Need support?",
-                  text: "info@edusphereacademy.com.my",
-                  href: "mailto:info@edusphereacademy.com.my",
+                  text: SITE.email,
+                  href: `mailto:${SITE.email}`,
                 },
                 {
                   icon: FiMapPin,
                   title: "Visit us",
-                  text: "26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia",
-                  href: "https://www.google.com/maps/search/?api=1&query=26%20Jalan%20Camar%201%2C%20Taman%20Perling%2C%2081200%20Johor%20Bahru%2C%20Johor%2C%20Malaysia",
+                  text: SITE.address.formatted,
+                  href: SITE.mapUrl,
                 },
               ].map((item) => (
                 <a
