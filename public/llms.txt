@@ -1,6 +1,6 @@
 # Edusphere Academy (Malaysia)
 
-> Skills training academy in Taman Perling, Johor Bahru, Johor, Malaysia. Hands-on certificate courses in nursing aide, professional caregiving, hospital & healthcare administration, and barista arts.
+> Skills training academy in Taman Perling, Johor Bahru, Johor, Malaysia. Hands-on certificate courses in nursing aide, professional caregiving, and barista arts.
 
 ## Contact
 
@@ -26,13 +26,6 @@
 - Modules: Elderly Care, Autism Care, Child Care
 - Career paths: Professional Caregiver, Elderly Care Assistant, Special Needs Support Aide, Childcare Support Assistant
 - URL: https://www.edusphereacademy.com.my/courses/advanced-certificate-in-professional-caregiving
-
-### Advanced Certificate in Hospital & Healthcare Administration
-- Duration: 36 hours (12 weeks, weekend classes)
-- Fee: MYR 1,500 total (MYR 500/month x 3 months)
-- Modules: Healthcare Operations, Patient Administration, Medical Records & IT Systems
-- Career paths: Hospital Administrative Assistant, Patient Service Coordinator, Clinic Front Office Executive
-- URL: https://www.edusphereacademy.com.my/courses/hospital-healthcare-administration
 
 ### Certificate in Barista Arts
 - Duration: 36 hours (12 weeks, weekend classes)

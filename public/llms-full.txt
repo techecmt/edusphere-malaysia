@@ -1,6 +1,6 @@
 # Edusphere Academy — Full Course & Organisation Details
 
-> Edusphere Academy Pte Ltd is a skills training academy located at 26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia. We offer hands-on, part-time certificate courses in healthcare support, caregiving, hospital administration, and barista arts. All courses run on weekends (36 hours over 12 weeks) and cost MYR 1,500 total. Open Monday–Sunday, 9am–6pm.
+> Edusphere Academy Pte Ltd is a skills training academy located at 26 Jalan Camar 1, Taman Perling, 81200 Johor Bahru, Johor, Malaysia. We offer hands-on, part-time certificate courses in healthcare support, caregiving, and barista arts. All courses run on weekends (36 hours over 12 weeks) and cost MYR 1,500 total. Open Monday–Sunday, 9am–6pm.
 
 ## Contact & Location
 
@@ -80,30 +80,7 @@ Professional Caregiver, Elderly Care Assistant, Special Needs Support Aide, Chil
 
 ---
 
-## Course 3: Advanced Certificate in Hospital & Healthcare Administration
-
-**URL:** https://www.edusphereacademy.com.my/courses/hospital-healthcare-administration
-
-A 36-hour, industry-focused programme building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.
-
-### Modules
-1. **Healthcare Operations & Service Excellence** (12 hours) — Healthcare systems, patient flow, quality assurance
-2. **Patient Administration & Medical Records** (12 hours) — Registration, documentation, data privacy, records management
-3. **Healthcare IT & Digital Systems** (12 hours) — HIS, EMR, clinic management software
-
-### Key Skills Taught
-- Healthcare operations
-- Patient administration
-- Medical records management
-- Healthcare IT systems
-- Customer service excellence
-
-### Career Paths
-Hospital Administrative Assistant, Patient Service Coordinator, Clinic Front Office Executive, Healthcare Operations Staff
-
----
-
-## Course 4: Certificate in Barista Arts
+## Course 3: Certificate in Barista Arts
 
 **URL:** https://www.edusphereacademy.com.my/courses/barista-arts
 

@@ -11,7 +11,7 @@ import { absoluteUrl, breadcrumbJsonLd, courseSeoBySlug } from "../data/seo";
 export const metadata: Metadata = {
   title: "Certificate Courses in Malaysia",
   description:
-    "Browse all Edusphere Academy certificate courses in Malaysia — nursing aide, professional caregiving (elderly, autism & child care), hospital & healthcare administration, and barista arts. Weekend classes in Taman Perling, Johor Bahru, Johor.",
+    "Browse all Edusphere Academy certificate courses in Malaysia — nursing aide, professional caregiving (elderly, autism & child care), and barista arts. Weekend classes in Taman Perling, Johor Bahru, Johor.",
   keywords: [
     "certificate courses Malaysia",
     "skills training courses Malaysia",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "/courses",
     title: "Certificate Courses in Malaysia | Edusphere Academy",
     description:
-      "Nursing aide, caregiving, healthcare administration and barista arts courses — weekend classes in Johor Bahru, Johor.",
+      "Nursing aide, caregiving and barista arts courses — weekend classes in Johor Bahru, Johor.",
   },
 };
 

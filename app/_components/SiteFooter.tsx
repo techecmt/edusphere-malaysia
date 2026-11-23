@@ -24,10 +24,6 @@ export default function SiteFooter({ className }: FooterProps) {
       href: "/courses/advanced-certificate-in-professional-caregiving",
     },
     {
-      label: "Healthcare Administration Course",
-      href: "/courses/hospital-healthcare-administration",
-    },
-    {
       label: "Barista Course",
       href: "/courses/barista-arts",
     },

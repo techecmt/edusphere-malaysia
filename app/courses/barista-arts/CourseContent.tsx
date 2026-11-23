@@ -8,6 +8,8 @@ import SiteFooter from "../../_components/SiteFooter";
 import SiteHeader from "../../_components/SiteHeader";
 import ContactForm from "../../_components/contactform";
 import RelatedCourses from "../../_components/RelatedCourses";
+import CourseFeeTable from "../../_components/CourseFeeTable";
+import { courseFeeSummary } from "../../data/courseFees";
 import type { IconType } from "react-icons";
 import {
   FiArrowRight,
@@ -125,12 +127,6 @@ const entryRequirements: string[] = [
   "No prior barista experience required",
   "N Level or equivalent (recommended)",
   "Final admission decision rests with the Academic Advisory Board",
-];
-
-const fees: { label: string; value: string }[] = [
-  { label: "Registration Fee (Non-Refundable)", value: "RM 100.00" },
-  { label: "Monthly Fee (3 months)", value: "RM 500.00" },
-  { label: "Total Course Fee", value: "RM 1,500.00" },
 ];
 
 const refundPolicy: { percent: string; tag: string; condition: string }[] = [
@@ -652,9 +648,7 @@ export default function BaristaArtsContent() {
                   className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl"
                 />
                 <p className="mt-4 text-base leading-relaxed text-slate-600">
-                  A part-time programme covering all modules at
-                  RM 500 per month for 3 months — RM 1,500 total with no
-                  hidden fees.
+                  {courseFeeSummary}
                 </p>
                 <a
                   href="#enquire"
@@ -670,37 +664,8 @@ export default function BaristaArtsContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={viewport}
                 transition={{ duration: 0.55, ease: "easeOut" }}
-                className="overflow-hidden rounded-4xl border border-(--border) bg-white shadow-[0_24px_90px_-62px_rgba(2,6,23,0.6)]"
               >
-                <div className="bg-linear-to-r from-(--brand-2) to-(--brand-secondary) px-6 py-5 text-white">
-                  <div className="text-xs font-semibold uppercase tracking-widest text-white/60">
-                    Part-time · Malaysian Ringgit
-                  </div>
-                  <div className="mt-1 text-lg font-extrabold">Fee Breakdown</div>
-                </div>
-                <div className="divide-y divide-(--border)">
-                  {fees.map((fee) => (
-                    <div
-                      key={fee.label}
-                      className="flex items-center justify-between gap-4 px-6 py-4"
-                    >
-                      <span className="text-sm font-semibold text-slate-700">
-                        {fee.label}
-                      </span>
-                      <span className="text-base font-extrabold text-slate-950">
-                        {fee.value}
-                      </span>
-                    </div>
-                  ))}
-                  <div className="flex items-center justify-between gap-4 bg-(--surface-2) px-6 py-5">
-                    <span className="text-sm font-extrabold uppercase tracking-wide text-(--brand-2)">
-                      Total Fees
-                    </span>
-                    <span className="text-2xl font-extrabold text-(--brand)">
-                      RM 1,500.00
-                    </span>
-                  </div>
-                </div>
+                <CourseFeeTable />
               </motion.div>
             </div>
           </div>

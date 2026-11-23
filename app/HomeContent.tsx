@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { FaStar, FaWhatsapp } from "react-icons/fa";
@@ -175,7 +176,7 @@ export default function HomeContent() {
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 [text-shadow:0_1px_12px_rgba(2,6,23,0.6)] sm:text-lg">
                 Hands-on, instructor-led certificate courses in nursing aide,
-                caregiving, healthcare administration and barista arts — at our
+                caregiving, and barista arts — at our
                 Taman Perling campus in Johor Bahru, with flexible e-learning
                 options.
               </p>
@@ -371,14 +372,21 @@ export default function HomeContent() {
                       </ul>
                     </div>
 
-                    <div className="mt-auto pt-5">
+                    <div className="mt-auto flex flex-col gap-2 pt-5">
                       <button
                         type="button"
                         onClick={() => setSelectedCourse(course)}
-                        className="inline-flex items-center text-xs font-semibold text-(--brand) hover:underline"
+                        className="inline-flex flex-1 items-center justify-center rounded-xl bg-(--brand) px-4 py-2.5 text-xs font-semibold text-white shadow-sm shadow-[#DDA15E]/25 hover:brightness-110 sm:text-sm"
                       >
-                        Get course details <FiArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden />
+                        Enquire now
                       </button>
+                      <Link
+                        href={`/courses/${course.id}`}
+                        className="inline-flex flex-1 items-center justify-center rounded-xl border border-(--border) bg-white px-4 py-2.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 sm:text-sm"
+                      >
+                        View course details
+                        <FiArrowRight className="ml-1.5 h-3.5 w-3.5" aria-hidden />
+                      </Link>
                     </div>
                   </div>
                 </article>

@@ -31,6 +31,11 @@ const nextConfig: NextConfig = {
         destination: "/logo.png",
         permanent: true,
       },
+      {
+        source: "/courses/hospital-healthcare-administration",
+        destination: "/courses",
+        permanent: true,
+      },
     ];
   },
   images: {

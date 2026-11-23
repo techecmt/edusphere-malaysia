@@ -57,7 +57,7 @@ export default function Image() {
             lineHeight: 1.4,
           }}
         >
-          Nursing Aide · Caregiving · Healthcare Administration · Barista Arts
+          Nursing Aide · Caregiving · Barista Arts
         </div>
         <div
           style={{

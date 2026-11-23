@@ -38,21 +38,6 @@ export const courses: Course[] = [
     featured: true,
   },
   {
-    id: "hospital-healthcare-administration",
-    title: "Advanced Certificate in Hospital & Healthcare Administration",
-    image:
-      "/course_featureimage/Advanced Certificate in Hospital & Healthcare Administration.jpg",
-    targetAudience: [
-      "Hospital administrator assistants",
-      "Healthcare operations staff",
-      "Patient service coordinators",
-      "Clinic front office teams",
-    ],
-    moduleCount: 3,
-    hours: "36 Hours",
-    featured: true,
-  },
-  {
     id: "barista-arts",
     title: "Certificate in Barista Arts",
     image: "/course_featureimage/Certficate in Barista.jpg",

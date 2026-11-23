@@ -150,55 +150,6 @@ export const courseSeoBySlug: Record<string, CourseSeo> = {
       },
     ],
   },
-  "hospital-healthcare-administration": {
-    slug: "hospital-healthcare-administration",
-    metaTitle: "Healthcare Administration Course in Malaysia",
-    metaDescription:
-      "36-hour Advanced Certificate in Hospital & Healthcare Administration at Edusphere Academy, Taman Perling, Johor Bahru, Johor. Patient administration, medical records, healthcare IT and service excellence. Enquire now.",
-    keywords: [
-      "healthcare administration course Malaysia",
-      "hospital administration course Malaysia",
-      "medical records course Malaysia",
-      "patient service associate course Malaysia",
-      "clinic administration training Malaysia",
-    ],
-    courseName: "Advanced Certificate in Hospital & Healthcare Administration",
-    courseDescription:
-      "A 36-hour, industry-focused programme in Malaysia building practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service excellence for administrative roles in hospitals, clinics, and healthcare organisations.",
-    credentialAwarded: "Advanced Certificate in Hospital & Healthcare Administration",
-    priceMYR: 1500,
-    teaches: [
-      "Healthcare operations",
-      "Patient administration",
-      "Medical records management",
-      "Healthcare IT systems",
-      "Customer service excellence",
-    ],
-    occupations: [
-      "Hospital Administrative Assistant",
-      "Patient Service Coordinator",
-      "Clinic Front Office Executive",
-      "Healthcare Operations Staff",
-    ],
-    faqs: [
-      {
-        q: "What skills does the healthcare administration course teach?",
-        a: "The programme builds practical skills in healthcare operations, patient administration, medical records, healthcare IT systems, and customer service for hospitals, clinics, and healthcare organisations in Malaysia.",
-      },
-      {
-        q: "How long is the hospital administration certificate programme?",
-        a: "It is 36 contact hours delivered part-time over 12 weeks with weekend classes at Edusphere Academy, Johor Bahru, Johor.",
-      },
-      {
-        q: "Is this course suitable for clinic front desk staff?",
-        a: "Yes. Patient service coordinators, clinic front office teams, and hospital administrator assistants are among the intended learners.",
-      },
-      {
-        q: "What credential is awarded?",
-        a: "Graduates receive the Advanced Certificate in Hospital & Healthcare Administration from Edusphere Academy.",
-      },
-    ],
-  },
   "barista-arts": {
     slug: "barista-arts",
     metaTitle: "Barista Course in Malaysia (Certificate in Barista Arts)",
